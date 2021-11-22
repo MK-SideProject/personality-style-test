@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Personalitystyletest">
         <activity
+            android:name=".coupleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PersonalityActivity"
+            android:exported="true" />
+        <activity
+            android:name=".humorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".logoActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
