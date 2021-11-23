@@ -10,8 +10,8 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:layout_marginTop="-30dp"
         android:src="@drawable/logo"
+        android:layout_marginTop="35dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,7 +20,7 @@
         android:layout_width="135dp"
         android:layout_height="109dp"
         android:layout_gravity="center"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="75dp"
         android:background="@drawable/shape"
         android:text="유형테스트"
         android:layout_marginLeft = "20dp"
@@ -68,7 +68,7 @@
         android:layout_width="135dp"
         android:layout_height="109dp"
         android:layout_gravity="center"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="75dp"
         android:background="@drawable/shape"
         android:text="유머테스트"
         android:layout_marginRight="20dp"
