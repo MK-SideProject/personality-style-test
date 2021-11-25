@@ -16,7 +16,7 @@
             android:name=".PersonalityActivity"
             android:exported="true" />
         <activity
-            android:name=".humorActivity"
+            android:name=".HumorActivity"
             android:exported="true" />
         <activity
             android:name=".logoActivity"
