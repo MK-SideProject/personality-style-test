@@ -24,7 +24,11 @@ public class PersonalityActivity extends AppCompatActivity {
 
         ListView listView = (ListView)findViewById(R.id.listView);
         PersonalityAdapter adapter = new PersonalityAdapter();
-        adapter.addItem(new PersonalityItem("컬러테스트", "색깔을 통해 나의 유형을 찾아가는 테스트","소요시간 : 5분", R.drawable.logo));
+        adapter.addItem(new PersonalityItem("컬러 테스트", "축제 개최를 위해 마을에 들어선 당신, 무엇을 할까요? 당신의 성격을 다양한 컬러와 매치시켜 보세요!","소요시간 : 3분 내외", R.drawable.colortest));
+        adapter.addItem(new PersonalityItem("여행 테스트", "여행을 갈 때 당신은 어떤타입?! 테스트를 통해서 당신의 성격과 알맞는 여행지와 여행법을 추천해드립니다!","소요시간 : 3분 내외", R.drawable.triptest));
+        adapter.addItem(new PersonalityItem("금융 레벨 테스트", "나의 금전 유형은 어떨까? 현 금융상태를 파악해서 어떤 방식으로 발전해야할지 알려주는 테스트입니다! 테스트 결과는 참고용으로만 써주세요!","소요시간 : 3분 내외", R.drawable.bankingtest));
+        adapter.addItem(new PersonalityItem("식물 추천 테스트", "취향에 맞춰 방에 대한 선택지를 골라보세요. 방의 분위기와 어울리는 식물을 추천해드리는 테스트입니다!","소요시간 : 3분 내외", R.drawable.planttest));
+        adapter.addItem(new PersonalityItem("운동 추천 테스트", "운동을 하기로 마음먹으셨나요? 당신과 잘어울리는 운동유형을 추천해주는 테스트입니다!","소요시간 : 3분 내외", R.drawable.exercisetest));
         listView.setAdapter(adapter);
 
 

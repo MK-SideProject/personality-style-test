@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/drawable/imageconer.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/drawable/shape.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_couple.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_humor.xml" value="0.25364583333333335" />
@@ -10,6 +11,7 @@
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_personality.xml" value="0.264" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/humor_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/layout.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/personality_item.xml" value="0.4" />
       </map>
     </option>

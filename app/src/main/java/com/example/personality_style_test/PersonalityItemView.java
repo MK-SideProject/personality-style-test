@@ -34,7 +34,13 @@ public class PersonalityItemView extends LinearLayout {
         description_resource = findViewById(R.id.description_resource1);
         time_resource = findViewById(R.id.time_resource1);
         img_resource = findViewById(R.id.img_resource1);
+
+
+
     }
+
+
+
 
 
     public void setTitle_resource1(String title_resource1){
@@ -49,8 +55,10 @@ public class PersonalityItemView extends LinearLayout {
         time_resource.setText(time_resource1);
     }
 
-    public void setImg_resource1(int img_resource1){
+    public void setImg_resource1(int img_resource1) {
         img_resource.setImageResource(img_resource1);
+
     }
+
 
 }
