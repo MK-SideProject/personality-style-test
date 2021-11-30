@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.personality_style_test" >
+    package="com.example.personality_style_test">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,28 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Personalitystyletest" >
+        android:theme="@style/Theme.Personalitystyletest">
+        <activity
+            android:name=".triptest.triptestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".santatest.santatestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".planttest.planttestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".exercisetest.exercisetestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".bankingtest.bankingtestActivity"
+            android:exported="true" />
         <activity
             android:name=".foodtest.foodtestActivity"
             android:exported="true" />
@@ -23,7 +44,7 @@
             android:exported="true" />
         <activity
             android:name=".logoActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
