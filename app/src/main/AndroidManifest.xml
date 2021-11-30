@@ -10,6 +10,159 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Personalitystyletest">
         <activity
+            android:name=".triptest.triptest_result8_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_result7_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_result6_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_result5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_result4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_result3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_result2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_result1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_7_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_6_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".triptest.triptest_1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".santatest.santatest_result4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".santatest.santatest_result3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".santatest.santatest_result2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".santatest.santatest_result1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".santatest.santatest_6_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".santatest.santatest_5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".santatest.santatest_4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".santatest.santatest_3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".santatest.santatest_2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".santatest.santatest_1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".planttest.planttest_result3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".planttest.planttest_result2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".planttest.planttest_result1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".planttest.planttest_5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".planttest.planttest_4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".planttest.planttest_3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".planttest.planttest_2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".planttest.planttest_1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_result3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_result2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_result1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_15_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_14_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_13_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_12_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_11_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_10_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_9_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_8_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_7_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_6_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".foodtest.foodtest_1_Activity"
+            android:exported="true" />
+        <activity
             android:name=".exercisetest.exercisetest_result5_Activity"
             android:exported="true" />
         <activity
