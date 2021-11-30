@@ -4,10 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".colortest.colortestActivity">
+    tools:context=".bankingtest.bankingtest_4_Activity">
+
+
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/colortest_main" />
+        android:src="@drawable/bankingtest_4" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".colortest.colortestActivity">
+    tools:context=".caketest.caketest_result2_Activity">
+
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/colortest_main" />
+        android:src="@drawable/caketest_result2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

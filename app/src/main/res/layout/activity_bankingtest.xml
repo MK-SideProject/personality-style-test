@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".bankingtest.bankingtestActivity">
 
+    <ImageView
+        android:id="@+id/bankingtest_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bankingtest_main" />
 </androidx.constraintlayout.widget.ConstraintLayout>

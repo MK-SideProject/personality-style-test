@@ -10,6 +10,132 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Personalitystyletest">
         <activity
+            android:name=".exercisetest.exercisetest_result5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".exercisetest.exercisetest_result4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".exercisetest.exercisetest_result3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".exercisetest.exercisetest_result2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".exercisetest.exercisetest_result1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".exercisetest.exercisetest_6_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".exercisetest.exercisetest_5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".exercisetest.exercisetest_4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".exercisetest.exercisetest_3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".exercisetest.exercisetest_2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".exercisetest.exercisetest_1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortest_result5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortest_result4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortest_result3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortest_result2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortest_result1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortest_6_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortest_5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortest_4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortest_3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortest_2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".colortest.colortest_1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketest_result4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketest_result3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketest_result2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketest_result1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketest_7_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketest_6_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketest_5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketest_4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketest_3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketest_2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".caketest.caketest_1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bankingtest.bankingtest_result3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bankingtest.bankingtest_result2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bankingtest.bankingtest_result1_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bankingtest.bankingtest_6_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bankingtest.bankingtest_5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bankingtest.bankingtest_4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bankingtest.bankingtest_3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bankingtest.bankingtest_2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".bankingtest.bankingtest_1_Activity"
+            android:exported="true" />
+        <activity
             android:name=".triptest.triptestActivity"
             android:exported="true" />
         <activity

@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".colortest.colortestActivity">
+    tools:context=".exercisetest.exercisetest_1_Activity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/colortest_main" />
+        android:src="@drawable/exercisetest_1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

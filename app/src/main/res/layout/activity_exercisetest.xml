@@ -6,4 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".exercisetest.exercisetestActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/exercisetest_main" />
 </androidx.constraintlayout.widget.ConstraintLayout>
