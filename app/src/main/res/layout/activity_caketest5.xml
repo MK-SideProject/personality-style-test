@@ -15,8 +15,8 @@
 
     <Button
         android:id="@+id/caketest_5_an1"
-        android:layout_width="236dp"
-        android:layout_height="56dp"
+        android:layout_width="249dp"
+        android:layout_height="58dp"
         android:background="@drawable/caketest_shape"
         android:text="모두가 함께 즐기면서 할 수 있는 게임"
         app:layout_constraintBottom_toBottomOf="@+id/imageView13"
@@ -28,8 +28,8 @@
 
     <Button
         android:id="@+id/caketest_5_an2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="257dp"
+        android:layout_height="51dp"
         android:background="@drawable/caketest_shape"
         android:text="여러가지를 준비해서 팀별로 즐기는 게임"
         app:layout_constraintBottom_toBottomOf="@+id/imageView13"
@@ -41,8 +41,8 @@
 
     <Button
         android:id="@+id/caketest_5_an3"
-        android:layout_width="237dp"
-        android:layout_height="50dp"
+        android:layout_width="251dp"
+        android:layout_height="48dp"
         android:background="@drawable/caketest_shape"
         android:text="각자 경쟁하는 게임"
         app:layout_constraintBottom_toBottomOf="parent"

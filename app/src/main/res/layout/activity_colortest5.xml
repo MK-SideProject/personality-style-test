@@ -27,8 +27,8 @@
 
     <Button
         android:id="@+id/colortest_5_an2"
-        android:layout_width="138dp"
-        android:layout_height="43dp"
+        android:layout_width="149dp"
+        android:layout_height="49dp"
         android:background="@drawable/colortest_shape"
         android:text="실용적인 작품"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,8 +40,8 @@
 
     <Button
         android:id="@+id/colortest_5_an3"
-        android:layout_width="136dp"
-        android:layout_height="48dp"
+        android:layout_width="148dp"
+        android:layout_height="53dp"
         android:background="@drawable/colortest_shape"
         android:text="외관이 아름다운 작품"
         app:layout_constraintBottom_toBottomOf="@+id/imageView20"

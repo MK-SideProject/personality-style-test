@@ -38,7 +38,7 @@
 
     <Button
         android:id="@+id/colortest_4_an3"
-        android:layout_width="272dp"
+        android:layout_width="287dp"
         android:layout_height="47dp"
         android:background="@drawable/colortest_shape"
         android:text="신나게 축제 컨텐츠를 전부 즐긴다"
@@ -51,8 +51,8 @@
 
     <Button
         android:id="@+id/colortest_4_an4"
-        android:layout_width="274dp"
-        android:layout_height="51dp"
+        android:layout_width="285dp"
+        android:layout_height="56dp"
         android:background="@drawable/colortest_shape"
         android:text="그냥 집에 있는다"
         app:layout_constraintBottom_toBottomOf="parent"

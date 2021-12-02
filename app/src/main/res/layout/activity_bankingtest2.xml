@@ -15,8 +15,8 @@
 
     <Button
         android:id="@+id/bankingtest_2_an1"
-        android:layout_width="342dp"
-        android:layout_height="50dp"
+        android:layout_width="241dp"
+        android:layout_height="58dp"
         android:background="@drawable/bankingtest_shape"
         android:text="갑자기 성과급이라니 일단 자유입출금적금에 넣어둬야겠어"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"

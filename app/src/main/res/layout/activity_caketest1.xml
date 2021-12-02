@@ -18,8 +18,8 @@
 
     <Button
         android:id="@+id/caketest_1_an1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="332dp"
+        android:layout_height="63dp"
         android:background="@drawable/caketest_shape"
         android:text="그냥 일반적인 케이크(빵집, 카페 케이크)"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"
@@ -32,8 +32,8 @@
 
     <Button
         android:id="@+id/caketest_1_an2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="337dp"
+        android:layout_height="52dp"
         android:background="@drawable/caketest_shape"
         android:text="크리스마스라는 느낌이 빵빵한 케이크"
         app:layout_constraintBottom_toBottomOf="@+id/imageView9"

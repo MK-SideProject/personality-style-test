@@ -28,8 +28,8 @@
 
     <Button
         android:id="@+id/caketest_7_an2"
-        android:layout_width="292dp"
-        android:layout_height="50dp"
+        android:layout_width="309dp"
+        android:layout_height="49dp"
         android:background="@drawable/caketest_shape"
         android:text="내일도 할게 있으니까 지금 씻고 자야지"
         app:layout_constraintBottom_toBottomOf="@+id/imageView15"

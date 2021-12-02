@@ -15,8 +15,8 @@
 
     <Button
         android:id="@+id/bankingtest_4_an1"
-        android:layout_width="289dp"
-        android:layout_height="63dp"
+        android:layout_width="281dp"
+        android:layout_height="64dp"
         android:background="@drawable/bankingtest_shape"
         android:text="집 주변 마트품목 별로 싼곳을 파악하고 있는 상태, 느긋하게 동네를 돌면서 마트를 둘러본다."
         app:layout_constraintBottom_toBottomOf="parent"
@@ -29,8 +29,8 @@
 
     <Button
         android:id="@+id/bankingtest_4_an2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="291dp"
+        android:layout_height="53dp"
         android:background="@drawable/bankingtest_shape"
         android:text="적당히 괜찮은 마트를 들어가서 예산내에 장을 보고 온다."
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
