@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.personality_style_test.R;
 
@@ -16,9 +17,9 @@ public class bankingtest_6_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bankingtest6);
 
-        Button bankingtest_6_an1 = (Button) findViewById(R.id.bankingtest_5_an1);
-        Button bankingtest_6_an2 = (Button) findViewById(R.id.bankingtest_5_an2);
-        Button bankingtest_6_an3 = (Button) findViewById(R.id.bankingtest_5_an3);
+        Button bankingtest_6_an1 = (Button) findViewById(R.id.bankingtest_6_an1);
+        Button bankingtest_6_an2 = (Button) findViewById(R.id.bankingtest_6_an2);
+        Button bankingtest_6_an3 = (Button) findViewById(R.id.bankingtest_6_an3);
 
         bankingtest_6_an1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,19 +32,23 @@ public class bankingtest_6_Activity extends AppCompatActivity {
                 String bankingtest_result2 = bundle.getString("bankingtest_result2");
                 String bankingtest_result3 = bundle.getString("bankingtest_result3");
 
-                if(bankingtest_result3 == "result3"){
+                if(bankingtest_result3!= null && bankingtest_result3.equals("result3") ){
                     Intent intent6 = new Intent(getBaseContext(), bankingtest_result3_Activity.class);
                     //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
                     startActivity(intent6);
                 }
-                else if(bankingtest_result1 == "result1"){
+                else if(bankingtest_result1!= null && bankingtest_result1.equals("result1")){
                     Intent intent6 = new Intent(getBaseContext(), bankingtest_result1_Activity.class);
+                    //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
                     startActivity(intent6);
                 }
                 else{
                     Intent intent6 = new Intent(getBaseContext(), bankingtest_result2_Activity.class);
+                    //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
                     startActivity(intent6);
+
                 }
+
 
             }
         });
@@ -59,20 +64,23 @@ public class bankingtest_6_Activity extends AppCompatActivity {
                 String bankingtest_result2 = bundle.getString("bankingtest_result2");
                 String bankingtest_result3 = bundle.getString("bankingtest_result3");
 
-                if(bankingtest_result3 == "result3"){
+                if(bankingtest_result3!= null && bankingtest_result3.equals("result3") ){
                     Intent intent6 = new Intent(getBaseContext(), bankingtest_result3_Activity.class);
                     //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
                     startActivity(intent6);
                 }
-                else if(bankingtest_result1 == "result1"){
+                else if(bankingtest_result1!= null && bankingtest_result1.equals("result1")){
                     Intent intent6 = new Intent(getBaseContext(), bankingtest_result1_Activity.class);
+                    //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
                     startActivity(intent6);
                 }
                 else{
                     Intent intent6 = new Intent(getBaseContext(), bankingtest_result2_Activity.class);
+                    //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
                     startActivity(intent6);
+
                 }
-            }
+             }
         });
 
         bankingtest_6_an3.setOnClickListener(new View.OnClickListener() {
