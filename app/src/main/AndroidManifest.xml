@@ -83,7 +83,13 @@
             android:exported="true" />
         <activity
             android:name=".santatest.santatest_1_Activity"
-            android:exported="true" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".planttest.planttest_result3_Activity"
             android:exported="true" />
@@ -260,13 +266,7 @@
             android:exported="true" />
         <activity
             android:name=".caketest.caketest_1_Activity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".bankingtest.bankingtest_result3_Activity"
             android:exported="true" />
