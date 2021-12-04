@@ -28,7 +28,7 @@ public class santatest_3_Activity extends AppCompatActivity {
                 Bundle bundle = intent2.getExtras();
 
                 String santatest_result1 = bundle.getString("santatest_result1");
-                String santatest_result2 = bundle.getString("santatest_result2");
+                String santatest_result2 = "result2";
                 String santatest_result3 = bundle.getString("santatest_result3");
                 String santatest_result4 = bundle.getString("santatest_result4");
 
@@ -75,7 +75,7 @@ public class santatest_3_Activity extends AppCompatActivity {
                 String santatest_result1 = bundle.getString("santatest_result1");
                 String santatest_result2 = bundle.getString("santatest_result2");
                 String santatest_result3 = bundle.getString("santatest_result3");
-                String santatest_result4 = "santatest_result4";
+                String santatest_result4 = "result4";
 
                 Intent intent3 = new Intent(getBaseContext(), santatest_4_Activity.class);
                 intent3.putExtra("santatest_result1", santatest_result1);

@@ -22,12 +22,16 @@ public class santatest_1_Activity extends AppCompatActivity {
 
         santatest_1_an1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                String santatest_result3 = "result3";
+            public void onClick(View view)
+            {
+                String santatest_result3 = "0";
+                String santatest_result2 = "0";
+                String santatest_result1 = "0";
 
                 Intent intent = new Intent(getBaseContext(), santatest_2_Activity.class);
                 intent.putExtra("santatest_result3", santatest_result3);
-
+                intent.putExtra("santatest_result2", santatest_result2);
+                intent.putExtra("santatest_result1", santatest_result1);
                 startActivity(intent);
             }
         });

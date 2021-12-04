@@ -36,12 +36,12 @@ public class santatest_6_Activity extends AppCompatActivity {
                     Intent intent6 = new Intent(getBaseContext(), santatest_result4_Activity.class);
                     startActivity(intent6);
                 }
-                else if (santatest_result1 != null && santatest_result1.equals("result1")) {
-                    Intent intent6 = new Intent(getBaseContext(), santatest_result1_Activity.class);
-                    startActivity(intent6);
-                }
                 else if (santatest_result2 != null && santatest_result2.equals("result2")) {
                     Intent intent6 = new Intent(getBaseContext(), santatest_result2_Activity.class);
+                    startActivity(intent6);
+                }
+                else if (santatest_result1 != null && santatest_result1.equals("result1")) {
+                    Intent intent6 = new Intent(getBaseContext(), santatest_result1_Activity.class);
                     startActivity(intent6);
                 }
                 else {
@@ -67,12 +67,12 @@ public class santatest_6_Activity extends AppCompatActivity {
                     Intent intent6 = new Intent(getBaseContext(), santatest_result4_Activity.class);
                     startActivity(intent6);
                 }
-                else if (santatest_result1 != null && santatest_result1.equals("result1")) {
-                    Intent intent6 = new Intent(getBaseContext(), santatest_result1_Activity.class);
-                    startActivity(intent6);
-                }
                 else if (santatest_result2 != null && santatest_result2.equals("result2")) {
                     Intent intent6 = new Intent(getBaseContext(), santatest_result2_Activity.class);
+                    startActivity(intent6);
+                }
+                else if (santatest_result1 != null && santatest_result1.equals("result1")) {
+                    Intent intent6 = new Intent(getBaseContext(), santatest_result1_Activity.class);
                     startActivity(intent6);
                 }
                 else {
@@ -98,12 +98,12 @@ public class santatest_6_Activity extends AppCompatActivity {
                     Intent intent6 = new Intent(getBaseContext(), santatest_result4_Activity.class);
                     startActivity(intent6);
                 }
-                else if (santatest_result1 != null && santatest_result1.equals("result1")) {
-                    Intent intent6 = new Intent(getBaseContext(), santatest_result1_Activity.class);
-                    startActivity(intent6);
-                }
                 else if (santatest_result2 != null && santatest_result2.equals("result2")) {
                     Intent intent6 = new Intent(getBaseContext(), santatest_result2_Activity.class);
+                    startActivity(intent6);
+                }
+                else if (santatest_result1 != null && santatest_result1.equals("result1")) {
+                    Intent intent6 = new Intent(getBaseContext(), santatest_result1_Activity.class);
                     startActivity(intent6);
                 }
                 else {
