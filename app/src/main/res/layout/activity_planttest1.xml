@@ -34,15 +34,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="110dp"
-        android:layout_marginTop="484dp"
         android:layout_marginEnd="110dp"
-        android:layout_marginBottom="207dp"
         android:background="@drawable/planttest_shape"
         android:text="비비드, 파스텔, 스트롱톤 계열"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        app:layout_constraintBottom_toTopOf="@+id/planttest_1_an3"
         app:layout_constraintEnd_toEndOf="@+id/imageView16"
         app:layout_constraintStart_toStartOf="@+id/imageView16"
-        app:layout_constraintTop_toTopOf="@+id/imageView16" />
+        app:layout_constraintTop_toBottomOf="@+id/planttest_1_an1" />
 
     <Button
         android:id="@+id/planttest_1_an3"

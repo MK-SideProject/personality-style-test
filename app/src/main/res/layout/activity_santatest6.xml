@@ -35,16 +35,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="96dp"
-        android:layout_marginTop="457dp"
         android:layout_marginEnd="97dp"
-        android:layout_marginBottom="215dp"
         android:background="@drawable/santatest_shape"
         android:text="걸어둔 양말에 넣어놓는다."
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintBottom_toTopOf="@+id/santatest_6_an3"
         app:layout_constraintEnd_toEndOf="@+id/imageView15"
         app:layout_constraintStart_toStartOf="@+id/imageView15"
-        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+        app:layout_constraintTop_toBottomOf="@+id/santatest_6_an1" />
 
     <Button
         android:id="@+id/santatest_6_an3"

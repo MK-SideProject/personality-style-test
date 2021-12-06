@@ -34,15 +34,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
-        android:layout_marginTop="494dp"
         android:layout_marginEnd="69dp"
-        android:layout_marginBottom="192dp"
         android:background="@drawable/triptest_shape"
         android:text="어떻게 될지 모르는 것, 갈 장소만 정해놓는다"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintBottom_toTopOf="@+id/triptest_3_an3"
         app:layout_constraintEnd_toEndOf="@+id/imageView5"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        app:layout_constraintTop_toBottomOf="@+id/triptest_3_an1" />
 
     <Button
         android:id="@+id/triptest_3_an3"

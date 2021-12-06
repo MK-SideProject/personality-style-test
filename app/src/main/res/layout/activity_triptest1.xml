@@ -33,14 +33,13 @@
         android:id="@+id/triptest_1_an2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="494dp"
         android:background="@drawable/triptest_shape"
         android:text="정말 친한 친구들이랑만 다녀오고 싶어."
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/triptest_1_an3"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/triptest_1_an1"
+        app:layout_constraintVertical_bias="0.54" />
 
     <Button
         android:id="@+id/triptest_1_an3"
