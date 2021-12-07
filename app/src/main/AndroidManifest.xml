@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Personalitystyletest">
         <activity
+            android:name=".personality.personalitytest_Activity"
+            android:exported="true" />
+        <activity
             android:name=".triptest.triptest_result8_Activity"
             android:exported="true" />
         <activity
@@ -53,8 +56,7 @@
             android:exported="true" />
         <activity
             android:name=".triptest.triptest_1_Activity"
-            android:exported="true" >
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".santatest.santatest_result4_Activity"
             android:exported="true" />
@@ -84,9 +86,7 @@
             android:exported="true" />
         <activity
             android:name=".santatest.santatest_1_Activity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".planttest.planttest_result3_Activity"
             android:exported="true" />
@@ -164,7 +164,7 @@
             android:exported="true" />
         <activity
             android:name=".foodtest.foodtest_1_Activity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -203,9 +203,7 @@
             android:exported="true" />
         <activity
             android:name=".exercisetest.exercisetest_1_Activity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".colortest.colortest_result5_Activity"
             android:exported="true" />
@@ -298,9 +296,7 @@
             android:exported="true" />
         <activity
             android:name=".bankingtest.bankingtest_1_Activity"
-            android:exported="true" >
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".triptest.triptestActivity"
             android:exported="true" />
@@ -336,9 +332,7 @@
             android:exported="true" />
         <activity
             android:name=".logoActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true" />
