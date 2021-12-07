@@ -10,6 +10,126 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Personalitystyletest">
         <activity
+            android:name=".personality.personality_40_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_39_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_38_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_37_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_36_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_35_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_34_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_33_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_32_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_31_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_30_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_29_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_28_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_27_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_26_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_25_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_24_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_23_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_22_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_21_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_20_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_19_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_18_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_17_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_16_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_15_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_14_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_13_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_12_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_11_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_10_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_9_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_8_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_7_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_6_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_5_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_4_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_3_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_2_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_1_Activity"
+            android:exported="true" />
+        <activity
             android:name=".personality.personalitytest_Activity"
             android:exported="true" />
         <activity
@@ -56,7 +176,7 @@
             android:exported="true" />
         <activity
             android:name=".triptest.triptest_1_Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".santatest.santatest_result4_Activity"
             android:exported="true" />
@@ -86,7 +206,7 @@
             android:exported="true" />
         <activity
             android:name=".santatest.santatest_1_Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".planttest.planttest_result3_Activity"
             android:exported="true" />
@@ -203,7 +323,7 @@
             android:exported="true" />
         <activity
             android:name=".exercisetest.exercisetest_1_Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".colortest.colortest_result5_Activity"
             android:exported="true" />
@@ -296,7 +416,7 @@
             android:exported="true" />
         <activity
             android:name=".bankingtest.bankingtest_1_Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".triptest.triptestActivity"
             android:exported="true" />
@@ -332,7 +452,7 @@
             android:exported="true" />
         <activity
             android:name=".logoActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
