@@ -1,0 +1,1044 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.personality_style_test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:5:5-507:19
+12        android:allowBackup="true"
+12-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\USER\.gradle\caches\transforms-3\5f5e792acd1d8373e906efd73c4b888f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Personalitystyletest" >
+20-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:11:9-58
+21        <activity
+21-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:12:9-14:39
+22            android:name="com.example.personality_style_test.personality.personality_result_isfp"
+22-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:13:13-64
+23            android:exported="true" />
+23-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:14:13-36
+24        <activity
+24-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:15:9-17:39
+25            android:name="com.example.personality_style_test.personality.personality_result_isfj"
+25-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:16:13-64
+26            android:exported="true" />
+26-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:17:13-36
+27        <activity
+27-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:18:9-20:39
+28            android:name="com.example.personality_style_test.personality.personality_result_istp"
+28-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:19:13-64
+29            android:exported="true" />
+29-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:20:13-36
+30        <activity
+30-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:21:9-23:39
+31            android:name="com.example.personality_style_test.personality.personality_result_istj"
+31-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:22:13-64
+32            android:exported="true" />
+32-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:23:13-36
+33        <activity
+33-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:24:9-26:39
+34            android:name="com.example.personality_style_test.personality.personality_result_infj"
+34-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:25:13-64
+35            android:exported="true" />
+35-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:26:13-36
+36        <activity
+36-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:27:9-29:39
+37            android:name="com.example.personality_style_test.personality.personality_result_infp"
+37-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:28:13-64
+38            android:exported="true" />
+38-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:29:13-36
+39        <activity
+39-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:30:9-32:39
+40            android:name="com.example.personality_style_test.personality.personality_result_intp"
+40-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:31:13-64
+41            android:exported="true" />
+41-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:32:13-36
+42        <activity
+42-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:33:9-35:39
+43            android:name="com.example.personality_style_test.personality.personality_result_intj"
+43-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:34:13-64
+44            android:exported="true" />
+44-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:35:13-36
+45        <activity
+45-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:36:9-38:39
+46            android:name="com.example.personality_style_test.personality.personality_result_esfp"
+46-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:37:13-64
+47            android:exported="true" />
+47-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:38:13-36
+48        <activity
+48-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:39:9-41:39
+49            android:name="com.example.personality_style_test.personality.personality_result_esfj"
+49-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:40:13-64
+50            android:exported="true" />
+50-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:41:13-36
+51        <activity
+51-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:42:9-44:39
+52            android:name="com.example.personality_style_test.personality.personality_result_estp"
+52-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:43:13-64
+53            android:exported="true" />
+53-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:44:13-36
+54        <activity
+54-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:45:9-47:39
+55            android:name="com.example.personality_style_test.personality.personality_result_estj"
+55-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:46:13-64
+56            android:exported="true" />
+56-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:47:13-36
+57        <activity
+57-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:48:9-50:39
+58            android:name="com.example.personality_style_test.personality.personality_result_enfp"
+58-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:49:13-64
+59            android:exported="true" />
+59-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:50:13-36
+60        <activity
+60-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:51:9-53:39
+61            android:name="com.example.personality_style_test.personality.personality_result_enfj"
+61-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:52:13-64
+62            android:exported="true" />
+62-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:53:13-36
+63        <activity
+63-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:54:9-56:39
+64            android:name="com.example.personality_style_test.personality.personality_result_entp"
+64-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:55:13-64
+65            android:exported="true" />
+65-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:56:13-36
+66        <activity
+66-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:57:9-59:39
+67            android:name="com.example.personality_style_test.personality.personality_result_entj"
+67-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:58:13-64
+68            android:exported="true" />
+68-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:59:13-36
+69        <activity
+69-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:60:9-62:39
+70            android:name="com.example.personality_style_test.personality.personality_40_Activity"
+70-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:61:13-64
+71            android:exported="true" />
+71-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:62:13-36
+72        <activity
+72-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:63:9-65:39
+73            android:name="com.example.personality_style_test.personality.personality_39_Activity"
+73-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:64:13-64
+74            android:exported="true" />
+74-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:65:13-36
+75        <activity
+75-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:66:9-68:39
+76            android:name="com.example.personality_style_test.personality.personality_38_Activity"
+76-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:67:13-64
+77            android:exported="true" />
+77-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:68:13-36
+78        <activity
+78-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:69:9-71:39
+79            android:name="com.example.personality_style_test.personality.personality_37_Activity"
+79-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:70:13-64
+80            android:exported="true" />
+80-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:71:13-36
+81        <activity
+81-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:72:9-74:39
+82            android:name="com.example.personality_style_test.personality.personality_36_Activity"
+82-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:73:13-64
+83            android:exported="true" />
+83-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:74:13-36
+84        <activity
+84-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:75:9-77:39
+85            android:name="com.example.personality_style_test.personality.personality_35_Activity"
+85-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:76:13-64
+86            android:exported="true" />
+86-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:77:13-36
+87        <activity
+87-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:78:9-80:39
+88            android:name="com.example.personality_style_test.personality.personality_34_Activity"
+88-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:79:13-64
+89            android:exported="true" />
+89-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:80:13-36
+90        <activity
+90-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:81:9-83:39
+91            android:name="com.example.personality_style_test.personality.personality_33_Activity"
+91-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:82:13-64
+92            android:exported="true" />
+92-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:83:13-36
+93        <activity
+93-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:84:9-86:39
+94            android:name="com.example.personality_style_test.personality.personality_32_Activity"
+94-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:85:13-64
+95            android:exported="true" />
+95-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:86:13-36
+96        <activity
+96-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:87:9-89:39
+97            android:name="com.example.personality_style_test.personality.personality_31_Activity"
+97-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:88:13-64
+98            android:exported="true" />
+98-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:89:13-36
+99        <activity
+99-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:90:9-92:39
+100            android:name="com.example.personality_style_test.personality.personality_30_Activity"
+100-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:91:13-64
+101            android:exported="true" />
+101-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:92:13-36
+102        <activity
+102-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:93:9-95:39
+103            android:name="com.example.personality_style_test.personality.personality_29_Activity"
+103-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:94:13-64
+104            android:exported="true" />
+104-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:95:13-36
+105        <activity
+105-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:96:9-98:39
+106            android:name="com.example.personality_style_test.personality.personality_28_Activity"
+106-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:97:13-64
+107            android:exported="true" />
+107-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:98:13-36
+108        <activity
+108-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:99:9-101:39
+109            android:name="com.example.personality_style_test.personality.personality_27_Activity"
+109-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:100:13-64
+110            android:exported="true" />
+110-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:101:13-36
+111        <activity
+111-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:102:9-104:39
+112            android:name="com.example.personality_style_test.personality.personality_26_Activity"
+112-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:103:13-64
+113            android:exported="true" />
+113-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:104:13-36
+114        <activity
+114-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:105:9-107:39
+115            android:name="com.example.personality_style_test.personality.personality_25_Activity"
+115-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:106:13-64
+116            android:exported="true" />
+116-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:107:13-36
+117        <activity
+117-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:108:9-110:39
+118            android:name="com.example.personality_style_test.personality.personality_24_Activity"
+118-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:109:13-64
+119            android:exported="true" />
+119-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:110:13-36
+120        <activity
+120-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:111:9-113:39
+121            android:name="com.example.personality_style_test.personality.personality_23_Activity"
+121-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:112:13-64
+122            android:exported="true" />
+122-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:113:13-36
+123        <activity
+123-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:114:9-116:39
+124            android:name="com.example.personality_style_test.personality.personality_22_Activity"
+124-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:115:13-64
+125            android:exported="true" />
+125-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:116:13-36
+126        <activity
+126-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:117:9-119:39
+127            android:name="com.example.personality_style_test.personality.personality_21_Activity"
+127-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:118:13-64
+128            android:exported="true" />
+128-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:119:13-36
+129        <activity
+129-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:120:9-122:39
+130            android:name="com.example.personality_style_test.personality.personality_20_Activity"
+130-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:121:13-64
+131            android:exported="true" />
+131-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:122:13-36
+132        <activity
+132-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:123:9-125:39
+133            android:name="com.example.personality_style_test.personality.personality_19_Activity"
+133-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:124:13-64
+134            android:exported="true" />
+134-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:125:13-36
+135        <activity
+135-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:126:9-128:39
+136            android:name="com.example.personality_style_test.personality.personality_18_Activity"
+136-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:127:13-64
+137            android:exported="true" />
+137-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:128:13-36
+138        <activity
+138-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:129:9-131:39
+139            android:name="com.example.personality_style_test.personality.personality_17_Activity"
+139-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:130:13-64
+140            android:exported="true" />
+140-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:131:13-36
+141        <activity
+141-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:132:9-134:39
+142            android:name="com.example.personality_style_test.personality.personality_16_Activity"
+142-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:133:13-64
+143            android:exported="true" />
+143-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:134:13-36
+144        <activity
+144-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:135:9-137:39
+145            android:name="com.example.personality_style_test.personality.personality_15_Activity"
+145-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:136:13-64
+146            android:exported="true" />
+146-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:137:13-36
+147        <activity
+147-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:138:9-140:39
+148            android:name="com.example.personality_style_test.personality.personality_14_Activity"
+148-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:139:13-64
+149            android:exported="true" />
+149-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:140:13-36
+150        <activity
+150-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:141:9-143:39
+151            android:name="com.example.personality_style_test.personality.personality_13_Activity"
+151-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:142:13-64
+152            android:exported="true" />
+152-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:143:13-36
+153        <activity
+153-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:144:9-146:39
+154            android:name="com.example.personality_style_test.personality.personality_12_Activity"
+154-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:145:13-64
+155            android:exported="true" />
+155-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:146:13-36
+156        <activity
+156-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:147:9-149:39
+157            android:name="com.example.personality_style_test.personality.personality_11_Activity"
+157-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:148:13-64
+158            android:exported="true" />
+158-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:149:13-36
+159        <activity
+159-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:150:9-152:39
+160            android:name="com.example.personality_style_test.personality.personality_10_Activity"
+160-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:151:13-64
+161            android:exported="true" />
+161-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:152:13-36
+162        <activity
+162-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:153:9-155:39
+163            android:name="com.example.personality_style_test.personality.personality_9_Activity"
+163-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:154:13-63
+164            android:exported="true" />
+164-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:155:13-36
+165        <activity
+165-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:156:9-158:39
+166            android:name="com.example.personality_style_test.personality.personality_8_Activity"
+166-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:157:13-63
+167            android:exported="true" />
+167-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:158:13-36
+168        <activity
+168-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:159:9-161:39
+169            android:name="com.example.personality_style_test.personality.personality_7_Activity"
+169-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:160:13-63
+170            android:exported="true" />
+170-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:161:13-36
+171        <activity
+171-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:162:9-164:39
+172            android:name="com.example.personality_style_test.personality.personality_6_Activity"
+172-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:163:13-63
+173            android:exported="true" />
+173-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:164:13-36
+174        <activity
+174-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:165:9-167:39
+175            android:name="com.example.personality_style_test.personality.personality_5_Activity"
+175-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:166:13-63
+176            android:exported="true" />
+176-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:167:13-36
+177        <activity
+177-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:168:9-170:39
+178            android:name="com.example.personality_style_test.personality.personality_4_Activity"
+178-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:169:13-63
+179            android:exported="true" />
+179-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:170:13-36
+180        <activity
+180-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:171:9-173:39
+181            android:name="com.example.personality_style_test.personality.personality_3_Activity"
+181-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:172:13-63
+182            android:exported="true" />
+182-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:173:13-36
+183        <activity
+183-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:174:9-176:39
+184            android:name="com.example.personality_style_test.personality.personality_2_Activity"
+184-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:175:13-63
+185            android:exported="true" />
+185-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:176:13-36
+186        <activity
+186-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:177:9-179:39
+187            android:name="com.example.personality_style_test.personality.personality_1_Activity"
+187-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:178:13-63
+188            android:exported="true" />
+188-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:179:13-36
+189        <activity
+189-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:180:9-182:39
+190            android:name="com.example.personality_style_test.personality.personalitytest_Activity"
+190-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:181:13-65
+191            android:exported="true" />
+191-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:182:13-36
+192        <activity
+192-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:183:9-185:39
+193            android:name="com.example.personality_style_test.triptest.triptest_result8_Activity"
+193-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:184:13-63
+194            android:exported="true" />
+194-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:185:13-36
+195        <activity
+195-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:186:9-188:39
+196            android:name="com.example.personality_style_test.triptest.triptest_result7_Activity"
+196-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:187:13-63
+197            android:exported="true" />
+197-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:188:13-36
+198        <activity
+198-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:189:9-191:39
+199            android:name="com.example.personality_style_test.triptest.triptest_result6_Activity"
+199-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:190:13-63
+200            android:exported="true" />
+200-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:191:13-36
+201        <activity
+201-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:192:9-194:39
+202            android:name="com.example.personality_style_test.triptest.triptest_result5_Activity"
+202-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:193:13-63
+203            android:exported="true" />
+203-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:194:13-36
+204        <activity
+204-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:195:9-197:39
+205            android:name="com.example.personality_style_test.triptest.triptest_result4_Activity"
+205-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:196:13-63
+206            android:exported="true" />
+206-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:197:13-36
+207        <activity
+207-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:198:9-200:39
+208            android:name="com.example.personality_style_test.triptest.triptest_result3_Activity"
+208-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:199:13-63
+209            android:exported="true" />
+209-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:200:13-36
+210        <activity
+210-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:201:9-203:39
+211            android:name="com.example.personality_style_test.triptest.triptest_result2_Activity"
+211-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:202:13-63
+212            android:exported="true" />
+212-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:203:13-36
+213        <activity
+213-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:204:9-206:39
+214            android:name="com.example.personality_style_test.triptest.triptest_result1_Activity"
+214-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:205:13-63
+215            android:exported="true" />
+215-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:206:13-36
+216        <activity
+216-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:207:9-209:39
+217            android:name="com.example.personality_style_test.triptest.triptest_7_Activity"
+217-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:208:13-57
+218            android:exported="true" />
+218-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:209:13-36
+219        <activity
+219-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:210:9-212:39
+220            android:name="com.example.personality_style_test.triptest.triptest_6_Activity"
+220-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:211:13-57
+221            android:exported="true" />
+221-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:212:13-36
+222        <activity
+222-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:213:9-215:39
+223            android:name="com.example.personality_style_test.triptest.triptest_5_Activity"
+223-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:214:13-57
+224            android:exported="true" />
+224-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:215:13-36
+225        <activity
+225-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:216:9-218:39
+226            android:name="com.example.personality_style_test.triptest.triptest_4_Activity"
+226-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:217:13-57
+227            android:exported="true" />
+227-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:218:13-36
+228        <activity
+228-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:219:9-221:39
+229            android:name="com.example.personality_style_test.triptest.triptest_3_Activity"
+229-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:220:13-57
+230            android:exported="true" />
+230-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:221:13-36
+231        <activity
+231-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:222:9-224:39
+232            android:name="com.example.personality_style_test.triptest.triptest_2_Activity"
+232-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:223:13-57
+233            android:exported="true" />
+233-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:224:13-36
+234        <activity
+234-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:225:9-227:39
+235            android:name="com.example.personality_style_test.triptest.triptest_1_Activity"
+235-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:226:13-57
+236            android:exported="true" />
+236-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:227:13-36
+237        <activity
+237-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:228:9-230:39
+238            android:name="com.example.personality_style_test.santatest.santatest_result4_Activity"
+238-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:229:13-65
+239            android:exported="true" />
+239-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:230:13-36
+240        <activity
+240-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:231:9-233:39
+241            android:name="com.example.personality_style_test.santatest.santatest_result3_Activity"
+241-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:232:13-65
+242            android:exported="true" />
+242-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:233:13-36
+243        <activity
+243-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:234:9-236:39
+244            android:name="com.example.personality_style_test.santatest.santatest_result2_Activity"
+244-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:235:13-65
+245            android:exported="true" />
+245-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:236:13-36
+246        <activity
+246-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:237:9-239:39
+247            android:name="com.example.personality_style_test.santatest.santatest_result1_Activity"
+247-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:238:13-65
+248            android:exported="true" />
+248-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:239:13-36
+249        <activity
+249-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:240:9-242:39
+250            android:name="com.example.personality_style_test.santatest.santatest_6_Activity"
+250-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:241:13-59
+251            android:exported="true" />
+251-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:242:13-36
+252        <activity
+252-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:243:9-245:39
+253            android:name="com.example.personality_style_test.santatest.santatest_5_Activity"
+253-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:244:13-59
+254            android:exported="true" />
+254-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:245:13-36
+255        <activity
+255-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:246:9-248:39
+256            android:name="com.example.personality_style_test.santatest.santatest_4_Activity"
+256-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:247:13-59
+257            android:exported="true" />
+257-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:248:13-36
+258        <activity
+258-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:249:9-251:39
+259            android:name="com.example.personality_style_test.santatest.santatest_3_Activity"
+259-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:250:13-59
+260            android:exported="true" />
+260-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:251:13-36
+261        <activity
+261-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:252:9-254:39
+262            android:name="com.example.personality_style_test.santatest.santatest_2_Activity"
+262-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:253:13-59
+263            android:exported="true" />
+263-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:254:13-36
+264        <activity
+264-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:255:9-257:39
+265            android:name="com.example.personality_style_test.santatest.santatest_1_Activity"
+265-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:256:13-59
+266            android:exported="true" />
+266-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:257:13-36
+267        <activity
+267-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:258:9-260:39
+268            android:name="com.example.personality_style_test.planttest.planttest_result3_Activity"
+268-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:259:13-65
+269            android:exported="true" />
+269-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:260:13-36
+270        <activity
+270-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:261:9-263:39
+271            android:name="com.example.personality_style_test.planttest.planttest_result2_Activity"
+271-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:262:13-65
+272            android:exported="true" />
+272-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:263:13-36
+273        <activity
+273-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:264:9-266:39
+274            android:name="com.example.personality_style_test.planttest.planttest_result1_Activity"
+274-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:265:13-65
+275            android:exported="true" />
+275-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:266:13-36
+276        <activity
+276-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:267:9-269:39
+277            android:name="com.example.personality_style_test.planttest.planttest_5_Activity"
+277-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:268:13-59
+278            android:exported="true" />
+278-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:269:13-36
+279        <activity
+279-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:270:9-272:39
+280            android:name="com.example.personality_style_test.planttest.planttest_4_Activity"
+280-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:271:13-59
+281            android:exported="true" />
+281-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:272:13-36
+282        <activity
+282-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:273:9-275:39
+283            android:name="com.example.personality_style_test.planttest.planttest_3_Activity"
+283-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:274:13-59
+284            android:exported="true" />
+284-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:275:13-36
+285        <activity
+285-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:276:9-278:39
+286            android:name="com.example.personality_style_test.planttest.planttest_2_Activity"
+286-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:277:13-59
+287            android:exported="true" />
+287-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:278:13-36
+288        <activity
+288-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:279:9-281:39
+289            android:name="com.example.personality_style_test.planttest.planttest_1_Activity"
+289-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:280:13-59
+290            android:exported="true" />
+290-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:281:13-36
+291        <activity
+291-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:282:9-284:39
+292            android:name="com.example.personality_style_test.foodtest.foodtest_result3_Activity"
+292-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:283:13-63
+293            android:exported="true" />
+293-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:284:13-36
+294        <activity
+294-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:285:9-287:39
+295            android:name="com.example.personality_style_test.foodtest.foodtest_result2_Activity"
+295-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:286:13-63
+296            android:exported="true" />
+296-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:287:13-36
+297        <activity
+297-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:288:9-290:39
+298            android:name="com.example.personality_style_test.foodtest.foodtest_result1_Activity"
+298-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:289:13-63
+299            android:exported="true" />
+299-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:290:13-36
+300        <activity
+300-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:291:9-293:39
+301            android:name="com.example.personality_style_test.foodtest.foodtest_15_Activity"
+301-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:292:13-58
+302            android:exported="true" />
+302-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:293:13-36
+303        <activity
+303-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:294:9-296:39
+304            android:name="com.example.personality_style_test.foodtest.foodtest_14_Activity"
+304-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:295:13-58
+305            android:exported="true" />
+305-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:296:13-36
+306        <activity
+306-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:297:9-299:39
+307            android:name="com.example.personality_style_test.foodtest.foodtest_13_Activity"
+307-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:298:13-58
+308            android:exported="true" />
+308-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:299:13-36
+309        <activity
+309-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:300:9-302:39
+310            android:name="com.example.personality_style_test.foodtest.foodtest_12_Activity"
+310-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:301:13-58
+311            android:exported="true" />
+311-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:302:13-36
+312        <activity
+312-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:303:9-305:39
+313            android:name="com.example.personality_style_test.foodtest.foodtest_11_Activity"
+313-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:304:13-58
+314            android:exported="true" />
+314-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:305:13-36
+315        <activity
+315-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:306:9-308:39
+316            android:name="com.example.personality_style_test.foodtest.foodtest_10_Activity"
+316-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:307:13-58
+317            android:exported="true" />
+317-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:308:13-36
+318        <activity
+318-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:309:9-311:39
+319            android:name="com.example.personality_style_test.foodtest.foodtest_9_Activity"
+319-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:310:13-57
+320            android:exported="true" />
+320-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:311:13-36
+321        <activity
+321-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:312:9-314:39
+322            android:name="com.example.personality_style_test.foodtest.foodtest_8_Activity"
+322-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:313:13-57
+323            android:exported="true" />
+323-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:314:13-36
+324        <activity
+324-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:315:9-317:39
+325            android:name="com.example.personality_style_test.foodtest.foodtest_7_Activity"
+325-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:316:13-57
+326            android:exported="true" />
+326-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:317:13-36
+327        <activity
+327-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:318:9-320:39
+328            android:name="com.example.personality_style_test.foodtest.foodtest_6_Activity"
+328-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:319:13-57
+329            android:exported="true" />
+329-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:320:13-36
+330        <activity
+330-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:321:9-323:39
+331            android:name="com.example.personality_style_test.foodtest.foodtest_5_Activity"
+331-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:322:13-57
+332            android:exported="true" />
+332-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:323:13-36
+333        <activity
+333-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:324:9-326:39
+334            android:name="com.example.personality_style_test.foodtest.foodtest_4_Activity"
+334-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:325:13-57
+335            android:exported="true" />
+335-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:326:13-36
+336        <activity
+336-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:327:9-329:39
+337            android:name="com.example.personality_style_test.foodtest.foodtest_3_Activity"
+337-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:328:13-57
+338            android:exported="true" />
+338-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:329:13-36
+339        <activity
+339-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:330:9-332:39
+340            android:name="com.example.personality_style_test.foodtest.foodtest_2_Activity"
+340-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:331:13-57
+341            android:exported="true" />
+341-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:332:13-36
+342        <activity
+342-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:333:9-335:38
+343            android:name="com.example.personality_style_test.foodtest.foodtest_1_Activity"
+343-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:334:13-57
+344            android:exported="true" />
+344-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:335:13-36
+345        <activity
+345-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:336:9-338:39
+346            android:name="com.example.personality_style_test.exercisetest.exercisetest_result5_Activity"
+346-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:337:13-71
+347            android:exported="true" />
+347-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:338:13-36
+348        <activity
+348-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:339:9-341:39
+349            android:name="com.example.personality_style_test.exercisetest.exercisetest_result4_Activity"
+349-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:340:13-71
+350            android:exported="true" />
+350-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:341:13-36
+351        <activity
+351-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:342:9-344:39
+352            android:name="com.example.personality_style_test.exercisetest.exercisetest_result3_Activity"
+352-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:343:13-71
+353            android:exported="true" />
+353-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:344:13-36
+354        <activity
+354-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:345:9-347:39
+355            android:name="com.example.personality_style_test.exercisetest.exercisetest_result2_Activity"
+355-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:346:13-71
+356            android:exported="true" />
+356-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:347:13-36
+357        <activity
+357-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:348:9-350:39
+358            android:name="com.example.personality_style_test.exercisetest.exercisetest_result1_Activity"
+358-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:349:13-71
+359            android:exported="true" />
+359-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:350:13-36
+360        <activity
+360-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:351:9-353:39
+361            android:name="com.example.personality_style_test.exercisetest.exercisetest_6_Activity"
+361-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:352:13-65
+362            android:exported="true" />
+362-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:353:13-36
+363        <activity
+363-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:354:9-356:39
+364            android:name="com.example.personality_style_test.exercisetest.exercisetest_5_Activity"
+364-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:355:13-65
+365            android:exported="true" />
+365-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:356:13-36
+366        <activity
+366-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:357:9-359:39
+367            android:name="com.example.personality_style_test.exercisetest.exercisetest_4_Activity"
+367-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:358:13-65
+368            android:exported="true" />
+368-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:359:13-36
+369        <activity
+369-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:360:9-362:39
+370            android:name="com.example.personality_style_test.exercisetest.exercisetest_3_Activity"
+370-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:361:13-65
+371            android:exported="true" />
+371-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:362:13-36
+372        <activity
+372-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:363:9-365:39
+373            android:name="com.example.personality_style_test.exercisetest.exercisetest_2_Activity"
+373-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:364:13-65
+374            android:exported="true" />
+374-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:365:13-36
+375        <activity
+375-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:366:9-368:39
+376            android:name="com.example.personality_style_test.exercisetest.exercisetest_1_Activity"
+376-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:367:13-65
+377            android:exported="true" />
+377-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:368:13-36
+378        <activity
+378-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:369:9-371:39
+379            android:name="com.example.personality_style_test.colortest.colortest_result5_Activity"
+379-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:370:13-65
+380            android:exported="true" />
+380-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:371:13-36
+381        <activity
+381-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:372:9-374:39
+382            android:name="com.example.personality_style_test.colortest.colortest_result4_Activity"
+382-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:373:13-65
+383            android:exported="true" />
+383-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:374:13-36
+384        <activity
+384-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:375:9-377:39
+385            android:name="com.example.personality_style_test.colortest.colortest_result3_Activity"
+385-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:376:13-65
+386            android:exported="true" />
+386-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:377:13-36
+387        <activity
+387-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:378:9-380:39
+388            android:name="com.example.personality_style_test.colortest.colortest_result2_Activity"
+388-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:379:13-65
+389            android:exported="true" />
+389-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:380:13-36
+390        <activity
+390-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:381:9-383:39
+391            android:name="com.example.personality_style_test.colortest.colortest_result1_Activity"
+391-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:382:13-65
+392            android:exported="true" />
+392-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:383:13-36
+393        <activity
+393-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:384:9-386:39
+394            android:name="com.example.personality_style_test.colortest.colortest_6_Activity"
+394-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:385:13-59
+395            android:exported="true" />
+395-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:386:13-36
+396        <activity
+396-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:387:9-389:39
+397            android:name="com.example.personality_style_test.colortest.colortest_5_Activity"
+397-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:388:13-59
+398            android:exported="true" />
+398-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:389:13-36
+399        <activity
+399-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:390:9-392:39
+400            android:name="com.example.personality_style_test.colortest.colortest_4_Activity"
+400-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:391:13-59
+401            android:exported="true" />
+401-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:392:13-36
+402        <activity
+402-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:393:9-395:39
+403            android:name="com.example.personality_style_test.colortest.colortest_3_Activity"
+403-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:394:13-59
+404            android:exported="true" />
+404-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:395:13-36
+405        <activity
+405-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:396:9-398:39
+406            android:name="com.example.personality_style_test.colortest.colortest_2_Activity"
+406-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:397:13-59
+407            android:exported="true" />
+407-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:398:13-36
+408        <activity
+408-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:399:9-401:39
+409            android:name="com.example.personality_style_test.colortest.colortest_1_Activity"
+409-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:400:13-59
+410            android:exported="true" />
+410-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:401:13-36
+411        <activity
+411-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:402:9-404:39
+412            android:name="com.example.personality_style_test.caketest.caketest_result4_Activity"
+412-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:403:13-63
+413            android:exported="true" />
+413-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:404:13-36
+414        <activity
+414-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:405:9-407:39
+415            android:name="com.example.personality_style_test.caketest.caketest_result3_Activity"
+415-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:406:13-63
+416            android:exported="true" />
+416-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:407:13-36
+417        <activity
+417-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:408:9-410:39
+418            android:name="com.example.personality_style_test.caketest.caketest_result2_Activity"
+418-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:409:13-63
+419            android:exported="true" />
+419-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:410:13-36
+420        <activity
+420-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:411:9-413:39
+421            android:name="com.example.personality_style_test.caketest.caketest_result1_Activity"
+421-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:412:13-63
+422            android:exported="true" />
+422-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:413:13-36
+423        <activity
+423-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:414:9-416:39
+424            android:name="com.example.personality_style_test.caketest.caketest_7_Activity"
+424-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:415:13-57
+425            android:exported="true" />
+425-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:416:13-36
+426        <activity
+426-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:417:9-419:39
+427            android:name="com.example.personality_style_test.caketest.caketest_6_Activity"
+427-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:418:13-57
+428            android:exported="true" />
+428-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:419:13-36
+429        <activity
+429-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:420:9-422:39
+430            android:name="com.example.personality_style_test.caketest.caketest_5_Activity"
+430-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:421:13-57
+431            android:exported="true" />
+431-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:422:13-36
+432        <activity
+432-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:423:9-425:39
+433            android:name="com.example.personality_style_test.caketest.caketest_4_Activity"
+433-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:424:13-57
+434            android:exported="true" />
+434-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:425:13-36
+435        <activity
+435-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:426:9-428:39
+436            android:name="com.example.personality_style_test.caketest.caketest_3_Activity"
+436-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:427:13-57
+437            android:exported="true" />
+437-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:428:13-36
+438        <activity
+438-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:429:9-431:39
+439            android:name="com.example.personality_style_test.caketest.caketest_2_Activity"
+439-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:430:13-57
+440            android:exported="true" />
+440-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:431:13-36
+441        <activity
+441-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:432:9-434:39
+442            android:name="com.example.personality_style_test.caketest.caketest_1_Activity"
+442-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:433:13-57
+443            android:exported="true" />
+443-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:434:13-36
+444        <activity
+444-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:435:9-437:39
+445            android:name="com.example.personality_style_test.bankingtest.bankingtest_result3_Activity"
+445-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:436:13-69
+446            android:exported="true" />
+446-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:437:13-36
+447        <activity
+447-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:438:9-440:39
+448            android:name="com.example.personality_style_test.bankingtest.bankingtest_result2_Activity"
+448-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:439:13-69
+449            android:exported="true" />
+449-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:440:13-36
+450        <activity
+450-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:441:9-443:39
+451            android:name="com.example.personality_style_test.bankingtest.bankingtest_result1_Activity"
+451-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:442:13-69
+452            android:exported="true" />
+452-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:443:13-36
+453        <activity
+453-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:444:9-446:39
+454            android:name="com.example.personality_style_test.bankingtest.bankingtest_6_Activity"
+454-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:445:13-63
+455            android:exported="true" />
+455-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:446:13-36
+456        <activity
+456-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:447:9-449:39
+457            android:name="com.example.personality_style_test.bankingtest.bankingtest_5_Activity"
+457-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:448:13-63
+458            android:exported="true" />
+458-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:449:13-36
+459        <activity
+459-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:450:9-452:39
+460            android:name="com.example.personality_style_test.bankingtest.bankingtest_4_Activity"
+460-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:451:13-63
+461            android:exported="true" />
+461-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:452:13-36
+462        <activity
+462-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:453:9-455:39
+463            android:name="com.example.personality_style_test.bankingtest.bankingtest_3_Activity"
+463-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:454:13-63
+464            android:exported="true" />
+464-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:455:13-36
+465        <activity
+465-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:456:9-458:39
+466            android:name="com.example.personality_style_test.bankingtest.bankingtest_2_Activity"
+466-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:457:13-63
+467            android:exported="true" />
+467-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:458:13-36
+468        <activity
+468-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:459:9-461:39
+469            android:name="com.example.personality_style_test.bankingtest.bankingtest_1_Activity"
+469-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:460:13-63
+470            android:exported="true" />
+470-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:461:13-36
+471        <activity
+471-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:462:9-464:39
+472            android:name="com.example.personality_style_test.triptest.triptestActivity"
+472-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:463:13-54
+473            android:exported="true" />
+473-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:464:13-36
+474        <activity
+474-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:465:9-467:39
+475            android:name="com.example.personality_style_test.santatest.santatestActivity"
+475-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:466:13-56
+476            android:exported="true" />
+476-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:467:13-36
+477        <activity
+477-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:468:9-470:39
+478            android:name="com.example.personality_style_test.planttest.planttestActivity"
+478-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:469:13-56
+479            android:exported="true" />
+479-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:470:13-36
+480        <activity
+480-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:471:9-473:39
+481            android:name="com.example.personality_style_test.exercisetest.exercisetestActivity"
+481-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:472:13-62
+482            android:exported="true" />
+482-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:473:13-36
+483        <activity
+483-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:474:9-476:39
+484            android:name="com.example.personality_style_test.colortest.colortestActivity"
+484-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:475:13-56
+485            android:exported="true" />
+485-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:476:13-36
+486        <activity
+486-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:477:9-479:39
+487            android:name="com.example.personality_style_test.caketest.caketestActivity"
+487-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:478:13-54
+488            android:exported="true" />
+488-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:479:13-36
+489        <activity
+489-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:480:9-482:39
+490            android:name="com.example.personality_style_test.bankingtest.bankingtestActivity"
+490-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:481:13-60
+491            android:exported="true" />
+491-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:482:13-36
+492        <activity
+492-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:483:9-485:39
+493            android:name="com.example.personality_style_test.foodtest.foodtestActivity"
+493-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:484:13-54
+494            android:exported="true" />
+494-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:485:13-36
+495        <activity
+495-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:486:9-488:39
+496            android:name="com.example.personality_style_test.coupleActivity"
+496-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:487:13-43
+497            android:exported="true" />
+497-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:488:13-36
+498        <activity
+498-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:489:9-491:39
+499            android:name="com.example.personality_style_test.PersonalityActivity"
+499-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:490:13-48
+500            android:exported="true" />
+500-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:491:13-36
+501        <activity
+501-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:492:9-494:39
+502            android:name="com.example.personality_style_test.HumorActivity"
+502-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:493:13-42
+503            android:exported="true" />
+503-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:494:13-36
+504        <activity
+504-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:495:9-503:20
+505            android:name="com.example.personality_style_test.logoActivity"
+505-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:496:13-41
+506            android:exported="true" >
+506-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:497:13-36
+507            <intent-filter>
+507-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:498:13-502:29
+508                <action android:name="android.intent.action.MAIN" />
+508-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:499:17-69
+508-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:499:25-66
+509
+510                <category android:name="android.intent.category.LAUNCHER" />
+510-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:501:17-77
+510-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:501:27-74
+511            </intent-filter>
+512        </activity>
+513        <activity
+513-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:504:9-506:39
+514            android:name="com.example.personality_style_test.MainActivity"
+514-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:505:13-41
+515            android:exported="true" />
+515-->D:\projects\mk projects\personality-style-test\app\src\main\AndroidManifest.xml:506:13-36
+516
+517        <provider
+517-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+518            android:name="androidx.startup.InitializationProvider"
+518-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+519            android:authorities="com.example.personality_style_test.androidx-startup"
+519-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+520            android:exported="false" >
+520-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+521            <meta-data
+521-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+522                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+522-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+523                android:value="androidx.startup" />
+523-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\883c8571d9900e72cce7dfb06c6e0c4b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+524            <meta-data
+524-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\c761cbdefd74fb3955bd84ec83922caa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+525                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+525-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\c761cbdefd74fb3955bd84ec83922caa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+526                android:value="androidx.startup" />
+526-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\c761cbdefd74fb3955bd84ec83922caa\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+527        </provider>
+528    </application>
+529
+530</manifest>
