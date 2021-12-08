@@ -79,6 +79,22 @@
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/humor_item.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/layout.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/personality_item.xml" value="0.4" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_enfj.xml" value="0.36041666666666666" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_enfp.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_entj.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_entp.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_esfj.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_esfp.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_estj.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_estp.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_infj.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_infp.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_intj.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_intp.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_isfj.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_isfp.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_istj.xml" value="0.18020833333333333" />
+        <entry key="..\:/projects/mk projects/personality-style-test/app/src/main/res/layout/activity_personality_result_istp.xml" value="0.18020833333333333" />
       </map>
     </option>
   </component>
@@ -87,5 +103,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
   </component>
 </project>
