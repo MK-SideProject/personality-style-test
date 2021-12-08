@@ -2,6 +2,7 @@ package com.example.personality_style_test;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,8 @@ import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
+
+import com.example.personality_style_test.colortest.colortest_1_Activity;
 
 import java.util.ArrayList;
 
@@ -31,7 +34,17 @@ public class PersonalityActivity extends AppCompatActivity {
         adapter.addItem(new PersonalityItem("운동 추천 테스트", "운동을 하기로 마음먹으셨나요? 당신과 잘어울리는 운동유형을 추천해주는 테스트입니다!","소요시간 : 3분 내외", R.drawable.exercisetest));
         listView.setAdapter(adapter);
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //final PersonalityItem item = (PersonalityItem) adapter.getItem(position);
+                if(position==0){
+                    Intent intent = new Intent(PersonalityActivity.this, colortest_1_Activity.class);
+                    startActivity(intent);
+                }
 
+            }
+        });
 
 
     }

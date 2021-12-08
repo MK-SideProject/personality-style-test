@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.personality_style_test.R;
+
 public class personality_10_Activity extends AppCompatActivity {
 
     @Override
