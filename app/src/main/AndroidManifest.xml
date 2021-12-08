@@ -10,6 +10,54 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Personalitystyletest">
         <activity
+            android:name=".personality.personality_result_isfp"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_isfj"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_istp"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_istj"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_infj"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_infp"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_intp"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_intj"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_esfp"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_esfj"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_estp"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_estj"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_enfp"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_enfj"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_entp"
+            android:exported="true" />
+        <activity
+            android:name=".personality.personality_result_entj"
+            android:exported="true" />
+        <activity
             android:name=".personality.personality_40_Activity"
             android:exported="true" />
         <activity
