@@ -7,6 +7,7 @@
     tools:context=".personality.personality_27_Activity">
 
     <ImageView
+        android:id="@+id/imageView36"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/personality_27"
@@ -16,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/personality_1_yes"
+        android:id="@+id/personality_27_yes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/clear"
@@ -30,7 +31,7 @@
         app:layout_constraintVertical_bias="0.541" />
 
     <Button
-        android:id="@+id/personality_1_no"
+        android:id="@+id/personality_27_no"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/clear"
@@ -40,6 +41,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/personality_1_yes"
+        app:layout_constraintTop_toBottomOf="@+id/personality_27_yes"
         app:layout_constraintVertical_bias="0.105" />
 </androidx.constraintlayout.widget.ConstraintLayout>
