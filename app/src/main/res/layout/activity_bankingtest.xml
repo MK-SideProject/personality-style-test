@@ -10,5 +10,9 @@
         android:id="@+id/bankingtest_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/bankingtest_main" />
+        android:src="@drawable/bankingtest_main"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
