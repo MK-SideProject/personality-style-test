@@ -6,4 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".personality.personality_1_Activity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/personality_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/personality_1_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/clear"
+        android:text="네"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/personality_1_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/clear"
+        android:text="아니오"
+        android:textSize="20sp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
