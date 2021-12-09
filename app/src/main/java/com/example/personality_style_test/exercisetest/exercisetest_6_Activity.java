@@ -8,11 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.personality_style_test.R;
-import com.example.personality_style_test.colortest.colortest_result1_Activity;
-import com.example.personality_style_test.colortest.colortest_result2_Activity;
-import com.example.personality_style_test.colortest.colortest_result3_Activity;
-import com.example.personality_style_test.colortest.colortest_result4_Activity;
-import com.example.personality_style_test.colortest.colortest_result5_Activity;
+
 
 public class exercisetest_6_Activity extends AppCompatActivity {
 

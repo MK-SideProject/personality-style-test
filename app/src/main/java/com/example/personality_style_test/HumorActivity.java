@@ -2,11 +2,22 @@ package com.example.personality_style_test;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
+
+import com.example.personality_style_test.bankingtest.bankingtest_1_Activity;
+import com.example.personality_style_test.caketest.caketest_1_Activity;
+import com.example.personality_style_test.colortest.colortest_1_Activity;
+import com.example.personality_style_test.exercisetest.exercisetest_1_Activity;
+import com.example.personality_style_test.foodtest.foodtest_1_Activity;
+import com.example.personality_style_test.planttest.planttest_1_Activity;
+import com.example.personality_style_test.santatest.santatest_1_Activity;
+import com.example.personality_style_test.triptest.triptest_1_Activity;
 
 import java.util.ArrayList;
 
@@ -25,8 +36,30 @@ public class HumorActivity extends AppCompatActivity {
         adapter.addItem(new HumorItem("크리스마스 케이크 테스트", "이번 크리스마스에는 어떤 케이크가 나와 어울릴까? 케이크에 대해 고민을 하고 있는 당신을 위해 테스트를 통해 케이크를 골라드립니다.", "소요시간 : 3분 내외", R.drawable.caketest));
         humor_list.setAdapter(adapter);
 
-    }
 
+        humor_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //final PersonalityItem item = (PersonalityItem) adapter.getItem(position);
+                if(position==0){
+                    Intent intent = new Intent(HumorActivity.this, foodtest_1_Activity.class);
+                    startActivity(intent);
+                }
+                if(position==1){
+                    Intent intent = new Intent( HumorActivity.this, santatest_1_Activity.class);
+                    startActivity(intent);
+                }
+                if(position==2){
+                    Intent intent = new Intent(HumorActivity.this, caketest_1_Activity.class);
+                    startActivity(intent);
+                }
+
+
+            }
+        });
+
+
+    }
 
     class HumorAdapter extends BaseAdapter {
         ArrayList<HumorItem> items = new ArrayList<HumorItem>();
@@ -58,7 +91,7 @@ public class HumorActivity extends AppCompatActivity {
                 humorItemView = new HumorItemView(getApplicationContext());
 
             }else{
-               humorItemView = (HumorItemView) convertView;
+                humorItemView = (HumorItemView) convertView;
             }
             HumorItem item = items.get(position);
             humorItemView.setHumor_title_resource(item.getHumor_title_resource1());
@@ -68,4 +101,5 @@ public class HumorActivity extends AppCompatActivity {
             return humorItemView;
         }
     }
+
 }

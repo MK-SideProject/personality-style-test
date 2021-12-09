@@ -8,9 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.personality_style_test.R;
-import com.example.personality_style_test.bankingtest.bankingtest_result1_Activity;
-import com.example.personality_style_test.bankingtest.bankingtest_result2_Activity;
-import com.example.personality_style_test.bankingtest.bankingtest_result3_Activity;
+
 
 public class planttest_5_Activity extends AppCompatActivity {
 

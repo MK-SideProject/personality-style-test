@@ -6,18 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
+
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
+import com.example.personality_style_test.bankingtest.bankingtest_1_Activity;
 import com.example.personality_style_test.colortest.colortest_1_Activity;
+import com.example.personality_style_test.exercisetest.exercisetest_1_Activity;
+import com.example.personality_style_test.planttest.planttest_1_Activity;
+import com.example.personality_style_test.triptest.triptest_1_Activity;
 
 import java.util.ArrayList;
 
 public class PersonalityActivity extends AppCompatActivity {
-
-
 
 
     @Override
@@ -27,6 +29,7 @@ public class PersonalityActivity extends AppCompatActivity {
 
         ListView listView = (ListView)findViewById(R.id.listView);
         PersonalityAdapter adapter = new PersonalityAdapter();
+
         adapter.addItem(new PersonalityItem("컬러 테스트", "축제 개최를 위해 마을에 들어선 당신, 무엇을 할까요? 당신의 성격을 다양한 컬러와 매치시켜 보세요!","소요시간 : 3분 내외", R.drawable.colortest));
         adapter.addItem(new PersonalityItem("여행 테스트", "여행을 갈 때 당신은 어떤타입?! 테스트를 통해서 당신의 성격과 알맞는 여행지와 여행법을 추천해드립니다!","소요시간 : 3분 내외", R.drawable.triptest));
         adapter.addItem(new PersonalityItem("금융 레벨 테스트", "나의 금전 유형은 어떨까? 현 금융상태를 파악해서 어떤 방식으로 발전해야할지 알려주는 테스트입니다! 테스트 결과는 참고용으로만 써주세요!","소요시간 : 3분 내외", R.drawable.bankingtest));
@@ -42,6 +45,22 @@ public class PersonalityActivity extends AppCompatActivity {
                     Intent intent = new Intent(PersonalityActivity.this, colortest_1_Activity.class);
                     startActivity(intent);
                 }
+                if(position==1){
+                    Intent intent = new Intent(PersonalityActivity.this, triptest_1_Activity.class);
+                    startActivity(intent);
+                }
+                if(position==2){
+                    Intent intent = new Intent(PersonalityActivity.this, bankingtest_1_Activity.class);
+                    startActivity(intent);
+                }
+                if(position==3){
+                    Intent intent = new Intent(PersonalityActivity.this, planttest_1_Activity.class);
+                    startActivity(intent);
+                }
+                if(position==4){
+                    Intent intent = new Intent(PersonalityActivity.this, exercisetest_1_Activity.class);
+                    startActivity(intent);
+                }
 
             }
         });
@@ -49,7 +68,7 @@ public class PersonalityActivity extends AppCompatActivity {
 
     }
 
-    class PersonalityAdapter extends BaseAdapter{
+    class PersonalityAdapter extends BaseAdapter {
         ArrayList<PersonalityItem> items = new ArrayList<PersonalityItem>();
 
         @Override
