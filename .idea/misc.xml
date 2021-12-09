@@ -6,6 +6,7 @@
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/drawable/bankingtest_sape.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/drawable/bankingtest_shape.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/drawable/caketest_shape.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/drawable/clearsape.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/drawable/colortest_shape.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/drawable/exercisetest_shape.xml" value="0.1" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/drawable/foodtest_shape.xml" value="0.1" />
@@ -79,11 +80,14 @@
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_personality19.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_personality29.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_personality9.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_personalitytest.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_planttest.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_planttest1.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_planttest_result1.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_planttest_result2.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_santatest.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_santatest1.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_triptest.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_triptest2.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/activity_triptest_result8.xml" value="0.1296875" />
         <entry key="..\:/Users/USER/Documents/GitHub/personality-style-test/app/src/main/res/layout/humor_item.xml" value="0.25364583333333335" />
