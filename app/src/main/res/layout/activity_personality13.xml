@@ -30,7 +30,7 @@
         app:layout_constraintVertical_bias="0.541" />
 
     <Button
-        android:id="@+id/personality_1_no"
+        android:id="@+id/personality_13_no"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/clear"

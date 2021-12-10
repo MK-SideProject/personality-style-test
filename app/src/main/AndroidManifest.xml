@@ -11,6 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Personalitystyletest">
         <activity
+            android:name=".mbticouple.mbti_enfj_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_entp_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_entj_Activity"
+            android:exported="true" />
+        <activity
             android:name=".personality.personality_result_isfp"
             android:exported="true" />
         <activity
@@ -333,7 +342,7 @@
             android:exported="true" />
         <activity
             android:name=".foodtest.foodtest_1_Activity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".exercisetest.exercisetest_result5_Activity"
             android:exported="true" />
@@ -495,7 +504,7 @@
             android:exported="true" />
         <activity
             android:name=".logoActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
