@@ -11,11 +11,15 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
-import com.example.personality_style_test.bankingtest.bankingtest_1_Activity;
-import com.example.personality_style_test.colortest.colortest_1_Activity;
-import com.example.personality_style_test.exercisetest.exercisetest_1_Activity;
-import com.example.personality_style_test.planttest.planttest_1_Activity;
-import com.example.personality_style_test.triptest.triptest_1_Activity;
+import com.example.personality_style_test.bankingtest.bankingtestActivity;
+
+import com.example.personality_style_test.colortest.colortestActivity;
+import com.example.personality_style_test.exercisetest.exercisetestActivity;
+
+import com.example.personality_style_test.planttest.planttestActivity;
+
+import com.example.personality_style_test.triptest.triptestActivity;
+
 
 import java.util.ArrayList;
 
@@ -42,23 +46,23 @@ public class PersonalityActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //final PersonalityItem item = (PersonalityItem) adapter.getItem(position);
                 if(position==0){
-                    Intent intent = new Intent(PersonalityActivity.this, colortest_1_Activity.class);
+                    Intent intent = new Intent(PersonalityActivity.this, colortestActivity.class);
                     startActivity(intent);
                 }
                 if(position==1){
-                    Intent intent = new Intent(PersonalityActivity.this, triptest_1_Activity.class);
+                    Intent intent = new Intent(PersonalityActivity.this, triptestActivity.class);
                     startActivity(intent);
                 }
                 if(position==2){
-                    Intent intent = new Intent(PersonalityActivity.this, bankingtest_1_Activity.class);
+                    Intent intent = new Intent(PersonalityActivity.this, bankingtestActivity.class);
                     startActivity(intent);
                 }
                 if(position==3){
-                    Intent intent = new Intent(PersonalityActivity.this, planttest_1_Activity.class);
+                    Intent intent = new Intent(PersonalityActivity.this, planttestActivity.class);
                     startActivity(intent);
                 }
                 if(position==4){
-                    Intent intent = new Intent(PersonalityActivity.this, exercisetest_1_Activity.class);
+                    Intent intent = new Intent(PersonalityActivity.this, exercisetestActivity.class);
                     startActivity(intent);
                 }
 

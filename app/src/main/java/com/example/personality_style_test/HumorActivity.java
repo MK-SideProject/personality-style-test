@@ -10,14 +10,13 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
-import com.example.personality_style_test.bankingtest.bankingtest_1_Activity;
-import com.example.personality_style_test.caketest.caketest_1_Activity;
-import com.example.personality_style_test.colortest.colortest_1_Activity;
-import com.example.personality_style_test.exercisetest.exercisetest_1_Activity;
-import com.example.personality_style_test.foodtest.foodtest_1_Activity;
-import com.example.personality_style_test.planttest.planttest_1_Activity;
-import com.example.personality_style_test.santatest.santatest_1_Activity;
-import com.example.personality_style_test.triptest.triptest_1_Activity;
+
+import com.example.personality_style_test.caketest.caketestActivity;
+
+import com.example.personality_style_test.foodtest.foodtestActivity;
+
+import com.example.personality_style_test.santatest.santatestActivity;
+
 
 import java.util.ArrayList;
 
@@ -42,15 +41,15 @@ public class HumorActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //final PersonalityItem item = (PersonalityItem) adapter.getItem(position);
                 if(position==0){
-                    Intent intent = new Intent(HumorActivity.this, foodtest_1_Activity.class);
+                    Intent intent = new Intent(HumorActivity.this, foodtestActivity.class);
                     startActivity(intent);
                 }
                 if(position==1){
-                    Intent intent = new Intent( HumorActivity.this, santatest_1_Activity.class);
+                    Intent intent = new Intent( HumorActivity.this, santatestActivity.class);
                     startActivity(intent);
                 }
                 if(position==2){
-                    Intent intent = new Intent(HumorActivity.this, caketest_1_Activity.class);
+                    Intent intent = new Intent(HumorActivity.this, caketestActivity.class);
                     startActivity(intent);
                 }
 
