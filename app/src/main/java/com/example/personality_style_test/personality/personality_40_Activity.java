@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.personality_style_test.R;
+import com.example.personality_style_test.foodtest.foodtest_result1_Activity;
+import com.example.personality_style_test.foodtest.foodtest_result2_Activity;
+import com.example.personality_style_test.foodtest.foodtest_result3_Activity;
 
 public class personality_40_Activity extends AppCompatActivity {
 
@@ -36,17 +39,83 @@ public class personality_40_Activity extends AppCompatActivity {
 
                 n+=1;
 
-                Intent intent40 = new Intent(getBaseContext(), personality_40_Activity.class);
-                intent40.putExtra("e", e);
-                intent40.putExtra("i", i);
-                intent40.putExtra("n", n);
-                intent40.putExtra("s", s);
-                intent40.putExtra("f", f);
-                intent40.putExtra("t", t);
-                intent40.putExtra("p", p);
-                intent40.putExtra("j", j);
+                //1
+                if(e > i && n > s && f> t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_enfp.class);
+                    startActivity(intent40);
+                }
+                //2
+                else if(e > i && n > s && f > t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_enfj.class);
+                    startActivity(intent40);
+                }
+                //3
+                else if(e > i && n > s && f < t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_entp.class);
+                    startActivity(intent40);
+                }
+                //4
+                else if(e > i && n > s && f < t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_entj.class);
+                    startActivity(intent40);
+                }
+                //5
+                else if(e > i && n < s && f > t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_esfp.class);
+                    startActivity(intent40);
+                }
+                //6
+                else if(e > i && n < s && f > t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_esfj.class);
+                    startActivity(intent40);
+                }
+                //7
+                else if(e > i && n < s && f < t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_estp.class);
+                    startActivity(intent40);
+                }//8
+                else if(e > i && n < s && f < t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_estj.class);
+                    startActivity(intent40);
+                }//9
+                if(e < i && n > s && f> t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_infp.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n > s && f > t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_infj.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n > s && f < t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_intp.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n > s && f < t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_intj.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n < s && f > t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_isfp.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n < s && f > t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_isfj.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n < s && f < t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_istp.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n < s && f < t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_istj.class);
+                    startActivity(intent40);
+                }
+                else{
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_enfp.class);
+                    startActivity(intent40);
 
-                startActivity(intent40);
+                }
+
 
             }
         });
@@ -68,17 +137,82 @@ public class personality_40_Activity extends AppCompatActivity {
 
                 s+=1;
 
-                Intent intent40 = new Intent(getBaseContext(), personality_40_Activity.class);
-                intent40.putExtra("e", e);
-                intent40.putExtra("i", i);
-                intent40.putExtra("n", n);
-                intent40.putExtra("s", s);
-                intent40.putExtra("f", f);
-                intent40.putExtra("t", t);
-                intent40.putExtra("p", p);
-                intent40.putExtra("j", j);
+                //1
+                if(e > i && n > s && f> t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_enfp.class);
+                    startActivity(intent40);
+                }
+                //2
+                else if(e > i && n > s && f > t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_enfj.class);
+                    startActivity(intent40);
+                }
+                //3
+                else if(e > i && n > s && f < t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_entp.class);
+                    startActivity(intent40);
+                }
+                //4
+                else if(e > i && n > s && f < t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_entj.class);
+                    startActivity(intent40);
+                }
+                //5
+                else if(e > i && n < s && f > t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_esfp.class);
+                    startActivity(intent40);
+                }
+                //6
+                else if(e > i && n < s && f > t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_esfj.class);
+                    startActivity(intent40);
+                }
+                //7
+                else if(e > i && n < s && f < t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_estp.class);
+                    startActivity(intent40);
+                }//8
+                else if(e > i && n < s && f < t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_estj.class);
+                    startActivity(intent40);
+                }//9
+                if(e < i && n > s && f> t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_infp.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n > s && f > t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_infj.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n > s && f < t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_intp.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n > s && f < t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_intj.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n < s && f > t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_isfp.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n < s && f > t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_isfj.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n < s && f < t && p > j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_istp.class);
+                    startActivity(intent40);
+                }
+                else if(e < i && n < s && f < t && p < j){
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_istj.class);
+                    startActivity(intent40);
+                }
+                else{
+                    Intent intent40 = new Intent(getBaseContext(), personality_result_enfp.class);
+                    startActivity(intent40);
 
-                startActivity(intent40);
+                }
 
             }
         });

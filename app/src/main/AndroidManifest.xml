@@ -11,6 +11,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Personalitystyletest">
         <activity
+            android:name=".mbticouple.mbti_istp_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_istj_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_isfp_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_isfj_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_infp_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_infj_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_intp_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_intj_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_esfp_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_esfj_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_estp_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_estj_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mbticouple.mbti_enfp_Activity"
+            android:exported="true" />
+        <activity
             android:name=".mbticouple.mbti_enfj_Activity"
             android:exported="true" />
         <activity
