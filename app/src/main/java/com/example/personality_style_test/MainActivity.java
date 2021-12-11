@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.personality_style_test.personality.personalitytest_Activity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -34,6 +36,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(getApplicationContext(), HumorActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mbtiTest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), personalitytest_Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        couple.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), coupleActivity.class);
                 startActivity(intent);
             }
         });
