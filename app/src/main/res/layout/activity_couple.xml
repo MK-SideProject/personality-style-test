@@ -8,16 +8,17 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="83dp"
-        android:layout_height="54dp"
+        android:layout_width="101dp"
+        android:layout_height="50dp"
         android:layout_marginStart="24dp"
-        android:text="입력 :"
-        android:textSize="35sp"
+        android:text="MBTI : "
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/couple_input_text"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.059" />
+        app:layout_constraintVertical_bias="0.064" />
 
     <Button
         android:id="@+id/couple_input_button"
@@ -25,6 +26,8 @@
         android:layout_height="55dp"
         android:layout_marginEnd="36dp"
         android:text="입력"
+        android:textColor="@color/white"
+        android:background="@drawable/shape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -33,7 +36,7 @@
         app:layout_constraintVertical_bias="0.058" />
 
     <ImageView
-        android:id="@+id/imageView43"
+        android:id="@+id/imageView_mbti_result"
         android:layout_width="350dp"
         android:layout_height="400dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,13 +51,12 @@
         android:id="@+id/couple_mbti_result_text"
         android:layout_width="285dp"
         android:layout_height="40dp"
-        android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintHorizontal_bias="0.238"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282" />
+        app:layout_constraintVertical_bias="0.286" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/couple_input_text"
