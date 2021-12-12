@@ -11,9 +11,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Personalitystyletest">
         <activity
-            android:name=".mbticouple.mbti_istp_Activity"
-            android:exported="true" />
-        <activity
             android:name=".mbticouple.mbti_istj_Activity"
             android:exported="true" />
         <activity
