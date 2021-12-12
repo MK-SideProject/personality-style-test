@@ -16,10 +16,12 @@ import com.google.android.material.textfield.TextInputEditText;
 
 public class coupleActivity extends AppCompatActivity {
 
+    private BackKeyClickHandler backKeyClickHandler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_couple);
+        backKeyClickHandler = new BackKeyClickHandler();
 
         Button couple_input_button = (Button) findViewById(R.id.couple_input_button);
         ImageView imageView_mbti_result = (ImageView) findViewById(R.id.imageView_mbti_result);
@@ -132,17 +134,24 @@ public class coupleActivity extends AppCompatActivity {
                       couple_mbti_result_text.setText("ISFJ와 어울리는 궁합은");
                       // 이미지 뷰 결과화면 변경
                       imageView_mbti_result.setImageResource(R.drawable.couple_isfj);
-                  }else{
+                  }else if(mbti.equals("ISFP")){
 
                       //텍스트 뷰 전환해주기
                       couple_mbti_result_text.setText("ISFP와 어울리는 궁합은");
                       // 이미지 뷰 결과화면 변경
                       imageView_mbti_result.setImageResource(R.drawable.couple_isfp);
+                  }else{
+                      Toast.makeText(getApplicationContext(), "MBTI관련 단어만 입력해주세요.",Toast.LENGTH_SHORT).show();
                   }
             }
 
 
             }
         });
+    }
+
+    @Override public void onBackPressed() {
+        super.onBackPressed();
+        backKeyClickHandler.onBackPressed();
     }
 }
