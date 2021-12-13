@@ -12,6 +12,7 @@ import com.example.personality_style_test.personality.personalitytest_Activity;
 public class MainActivity extends AppCompatActivity {
 
     private BackKeyClickHandler backKeyClickHandler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
