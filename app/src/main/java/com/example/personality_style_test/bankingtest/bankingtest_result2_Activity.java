@@ -20,7 +20,6 @@ public class bankingtest_result2_Activity extends AppCompatActivity {
         Button bankingtest_restart = (Button) findViewById(R.id.bankingtest_restart);
         Button bankingtest_list = (Button) findViewById(R.id.bankingtest_list);
 
-
         bankingtest_restart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

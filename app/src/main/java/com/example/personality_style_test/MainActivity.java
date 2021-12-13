@@ -11,13 +11,13 @@ import com.example.personality_style_test.personality.personalitytest_Activity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private BackKeyClickHandler backKeyClickHandler;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        backKeyClickHandler = new BackKeyClickHandler();
+
 
         Button personality = (Button)findViewById(R.id.personality);
         Button humor = (Button)findViewById(R.id.humor);
@@ -59,10 +59,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    @Override public void onBackPressed() {
-        super.onBackPressed();
-        backKeyClickHandler.onBackPressed();
-    }
+ 
 
 
 }

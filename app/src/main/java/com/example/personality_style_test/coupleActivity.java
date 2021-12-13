@@ -16,12 +16,12 @@ import com.google.android.material.textfield.TextInputEditText;
 
 public class coupleActivity extends AppCompatActivity {
 
-    private BackKeyClickHandler backKeyClickHandler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_couple);
-        backKeyClickHandler = new BackKeyClickHandler();
+
 
         Button couple_input_button = (Button) findViewById(R.id.couple_input_button);
         ImageView imageView_mbti_result = (ImageView) findViewById(R.id.imageView_mbti_result);
@@ -150,8 +150,4 @@ public class coupleActivity extends AppCompatActivity {
         });
     }
 
-    @Override public void onBackPressed() {
-        super.onBackPressed();
-        backKeyClickHandler.onBackPressed();
-    }
 }
