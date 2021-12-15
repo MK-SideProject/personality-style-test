@@ -31,6 +31,7 @@ import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 public class bankingtest_result1_Activity extends AppCompatActivity {
 
     private InterstitialAd mInterstitialAd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
