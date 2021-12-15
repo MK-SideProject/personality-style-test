@@ -4,6 +4,8 @@
     package="com.example.personality_style_test">
 
     <application
+
+
         android:allowBackup="true"
         android:icon="@mipmap/ic_main"
         android:label="@string/app_name"
@@ -11,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Personalitystyletest">
 
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9118919379373252~4489807179"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
         <activity
             android:name=".personality.personality_result_isfp"
             android:exported="true" />
