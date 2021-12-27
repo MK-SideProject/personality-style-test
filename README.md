@@ -78,9 +78,9 @@
 <div markdown="1">       
   - 각 리스트뷰는 아이템리스트와 아이템어댑터로 이루어져 있습니다
 </div>
-  <div markdown="2">       
+<div markdown="2">       
   - 아이템리스트는 아래 코드와 같습니다
-    <br>
+    
     <pre><code> 
     public PersonalityItem(String title_resource1, String description_resource1, String time_resource1, int img_resource1){
        this.title_resource1 = title_resource1;
@@ -88,13 +88,15 @@
        this.time_resource1 = time_resource1;
        this.img_resource1 = img_resource1;
      }
-     </code></pre>
+   
+   </code></pre>
    
 </div>
-  <div markdown="3">       
+<div markdown="3">       
   - 아이템리스트를 가져오는 건 어댑터로 하였고 주요 코드는 이러합니다
-    <br>
-    <pre><code>@Override
+
+  <pre><code>
+    @Override
         public View getView(int position, View convertView, ViewGroup parent){
             PersonalityItemView personalityItemView = null;
             if(convertView ==null){
@@ -110,7 +112,7 @@
             personalityItemView.setImg_resource1(item.getImg_resource1());
             return personalityItemView;
         }
-        </code></pre>
+  </code></pre>
 </div>
 </details>
 
@@ -119,11 +121,11 @@
 <div markdown="1">       
   - 테스트는 질문에 대한 버튼을 눌러 다음 액티비티로 값을 넘겨주는게 중요했습니다
 </div>
- <div markdown="2">       
+<div markdown="2">       
   - 처음에 값을 넘겨주는 코드는 아래와 같고
-     <br>
+
   <pre><code>
-  bankingtest_1_an1.setOnClickListener(new View.OnClickListener() {
+    bankingtest_1_an1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String bankigtest_result1 = "result1";
@@ -134,12 +136,12 @@
                 startActivity(intent);
             }
         });
-    </code></pre>
-</div>
+   </code></pre>
+  </div>
 <div markdown="3">
   - 위의 코드를 다음액티비티로 계속 넘겨줄 때의 코드는 이러합니다
   <pre><code>
-  bankingtest_2_an1.setOnClickListener(new View.OnClickListener() {
+    bankingtest_2_an1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -159,9 +161,8 @@
             }
         });
         
-        </code></pre>
-
- </div>
+</code></pre>
+</div>
 </details>
 
 <details>
@@ -169,7 +170,7 @@
 <div markdown="1">       
   - 마지막으로 값을 넘겨받은 마지막 액티비티에서 테스트 결과를 어떻게 마무리했는지 설명해드리겠습니다
 </div>
-  <div markdown="2">       
+<div markdown="2">       
   - 위에서 설명한 것과 같이 버튼에 대한 값을 넘겨 받고 마지막에 if문 처리를 해줬습니다
     <br>
     <pre><code>bankingtest_6_an1.setOnClickListener(new View.OnClickListener() {
@@ -201,7 +202,7 @@
 
             }
         });
-        </code></pre>
+   </code></pre>
 </div>
   <div markdown="3">       
   - if문을 안드로이드에서는 그냥 하면 null값등에 충돌이 있기에 if문의 코드를 이렇게 작성해줘야했습니다
@@ -211,7 +212,7 @@
     </code></pre>
     - 그냥 ==을 사용하면 값을 읽어오지 못하기 때문에 equals를 사용해야하는 점이 이 코드의 주의할 점 입니다.
 </div>
- </details>
+</details>
 
 
 
