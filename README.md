@@ -77,7 +77,11 @@
 <summary>리스트 코드 설명</summary>
 <div markdown="1">       
   - 각 리스트뷰는 아이템리스트와 아이템어댑터로 이루어져 있습니다
+</div>
+  <div markdown="2">       
   - 아이템리스트는 (코드)
+</div>
+  <div markdown="3">       
   - 아이템리스트를 가져오는건 어댑터로 하였고 주요 코드는 이러합니다
 </div>
 </details>
@@ -86,14 +90,27 @@
 <summary>테스트 코드 설명</summary>
 <div markdown="1">       
   - 테스트는 질문에 대한 버튼을 눌러 다음 액티비티로 값을 넘겨주는게 중요했습니다
-  - 이런한 값을 넘겨주는 코드는 (코드)
-  - 이런식으로 순차적으로 값을 넘겨줬습니다
 </div>
-<div markdown="2">       
+ <div markdown="2">       
+  - 이런한 값을 넘겨주는 코드는 (코드)
+</div>
+<div markdown="3">
+  - 이런식으로 순차적으로 값을 넘겨줬습니다(코드)
+ </div>
+</details>
+
+<details>
+<summary>테스트 코드 설명</summary>
+<div markdown="1">       
   - 마지막으로 값을 넘겨받은 마지막 액티비티에서 테스트 결과를 어떻게 마무리했는지 설명해드리겠습니다
+</div>
+  <div markdown="2">       
   - 위에서 설명한 것과 같이 버튼에 대한 값을 넘겨 받고 마지막에 if문 처리를 해줬습니다(코드)
+</div>
+  <div markdown="3">       
   - if문을 안드로이드에서는 그냥 하면 null값등에 충돌이 있기에 if문의 코드를 이렇게 작성해줘야했습니다(코드)
 </div>
-</details>
+ </details>
+
 
 
