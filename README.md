@@ -79,7 +79,7 @@
   - 각 리스트뷰는 아이템리스트와 아이템어댑터로 이루어져 있습니다
 </div>
   <div markdown="2">       
-  - 아이템리스트는
+  - 아이템리스트는 아래 코드와 같습니다
     <br>
     <pre><code> public PersonalityItem(String title_resource1, String description_resource1, String time_resource1, int img_resource1){
        this.title_resource1 = title_resource1;
@@ -90,7 +90,24 @@
    
 </div>
   <div markdown="3">       
-  - 아이템리스트를 가져오는건 어댑터로 하였고 주요 코드는 이러합니다
+  - 아이템리스트를 가져오는 건 어댑터로 하였고 주요 코드는 이러합니다
+    <br>
+    <pre><code>@Override
+        public View getView(int position, View convertView, ViewGroup parent){
+            PersonalityItemView personalityItemView = null;
+            if(convertView ==null){
+                personalityItemView = new PersonalityItemView(getApplicationContext());
+
+            }else{
+                personalityItemView = (PersonalityItemView)convertView;
+            }
+            PersonalityItem item = items.get(position);
+            personalityItemView.setTitle_resource1(item.getTitle_resource1());
+            personalityItemView.setDescription_resource1(item.getDescription_resource1());
+            personalityItemView.setTime_resource1(item.getTime_resource1());
+            personalityItemView.setImg_resource1(item.getImg_resource1());
+            return personalityItemView;
+        } </code></pre>
 </div>
 </details>
 
@@ -101,9 +118,41 @@
 </div>
  <div markdown="2">       
   - 이런한 값을 넘겨주는 코드는 
+     <br>
+  <pre><code>bankingtest_1_an1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String bankigtest_result1 = "result1";
+
+                Intent intent = new Intent(getBaseContext(), bankingtest_2_Activity.class);
+                intent.putExtra("bankingtest_result1", bankigtest_result1);
+
+                startActivity(intent);
+            }
+        });
+bankingtest_2_an1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = getIntent();
+                Bundle bundle = intent.getExtras();
+
+                String bankingtest_result1 = bundle.getString("bankingtest_result1");
+                String bankingtest_result2 = bundle.getString("bankingtest_result2");
+                String bankingtest_result3 = bundle.getString("bankingtest_result3");
+
+                Intent intent2 = new Intent(getBaseContext(), bankingtest_3_Activity.class);
+                intent2.putExtra("bankingtest_result1", bankingtest_result1);
+                intent2.putExtra("bankingtest_result2", bankingtest_result2);
+                intent2.putExtra("bankingtest_result3", bankingtest_result3);
+                //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
+                startActivity(intent2);
+            }
+        });</code></pre>
 </div>
 <div markdown="3">
-  - 이런식으로 순차적으로 값을 넘겨줬습니다(코드)
+  - 이러한 방식을 사용해 순차적으로 값을 넘겨줬습니다
+
  </div>
 </details>
 
@@ -113,10 +162,44 @@
   - 마지막으로 값을 넘겨받은 마지막 액티비티에서 테스트 결과를 어떻게 마무리했는지 설명해드리겠습니다
 </div>
   <div markdown="2">       
-  - 위에서 설명한 것과 같이 버튼에 대한 값을 넘겨 받고 마지막에 if문 처리를 해줬습니다(코드)
+  - 위에서 설명한 것과 같이 버튼에 대한 값을 넘겨 받고 마지막에 if문 처리를 해줬습니다
+    <br>
+    <pre><code>bankingtest_6_an1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent5 = getIntent();
+                Bundle bundle = intent5.getExtras();
+
+                String bankingtest_result1 = bundle.getString("bankingtest_result1");
+                String bankingtest_result2 = bundle.getString("bankingtest_result2");
+                String bankingtest_result3 = bundle.getString("bankingtest_result3");
+
+                if(bankingtest_result3!= null && bankingtest_result3.equals("result3") ){
+                    Intent intent6 = new Intent(getBaseContext(), bankingtest_result3_Activity.class);
+                    //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
+                    startActivity(intent6);
+                }
+                else if(bankingtest_result1!= null && bankingtest_result1.equals("result1")){
+                    Intent intent6 = new Intent(getBaseContext(), bankingtest_result1_Activity.class);
+                    //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
+                    startActivity(intent6);
+                }
+                else{
+                    Intent intent6 = new Intent(getBaseContext(), bankingtest_result2_Activity.class);
+                    //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
+                    startActivity(intent6);
+
+                }
+
+
+            }
+        });</code></pre>
 </div>
   <div markdown="3">       
-  - if문을 안드로이드에서는 그냥 하면 null값등에 충돌이 있기에 if문의 코드를 이렇게 작성해줘야했습니다(코드)
+  - if문을 안드로이드에서는 그냥 하면 null값등에 충돌이 있기에 if문의 코드를 이렇게 작성해줘야했습니다
+    <br>
+    <pre><code>if(bankingtest_result3!= null && bankingtest_result3.equals("result3") )</code></pre>
 </div>
  </details>
 
