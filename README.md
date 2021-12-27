@@ -79,7 +79,16 @@
   - 각 리스트뷰는 아이템리스트와 아이템어댑터로 이루어져 있습니다
 </div>
   <div markdown="2">       
-  - 아이템리스트는 (코드)
+  - 아이템리스트는
+    <br>
+    ```java
+    public PersonalityItem(String title_resource1, String description_resource1, String time_resource1, int img_resource1){
+       this.title_resource1 = title_resource1;
+       this.description_resource1 = description_resource1;
+       this.time_resource1 = time_resource1;
+       this.img_resource1 = img_resource1;
+    }
+  ```
 </div>
   <div markdown="3">       
   - 아이템리스트를 가져오는건 어댑터로 하였고 주요 코드는 이러합니다
@@ -92,7 +101,7 @@
   - 테스트는 질문에 대한 버튼을 눌러 다음 액티비티로 값을 넘겨주는게 중요했습니다
 </div>
  <div markdown="2">       
-  - 이런한 값을 넘겨주는 코드는 (코드)
+  - 이런한 값을 넘겨주는 코드는 
 </div>
 <div markdown="3">
   - 이런식으로 순차적으로 값을 넘겨줬습니다(코드)
