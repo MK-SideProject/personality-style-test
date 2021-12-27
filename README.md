@@ -39,8 +39,7 @@
 
 ✔ 성격유형 테스트
 
-![유형테스트5](https://user-images.githubusercontent.com/77378559/147446610-cd5f8f8a-6c39-4b48-b76b-c9ab05236ab1.jpg)
-![유형테스트6](https://user-images.githubusercontent.com/77378559/147446618-8d597f92-bebf-4a54-8db2-3dffe8d805f8.jpg)
+![유형테스트5](https://user-images.githubusercontent.com/77378559/147446610-cd5f8f8a-6c39-4b48-b76b-c9ab05236ab1.jpg) ![유형테스트6](https://user-images.githubusercontent.com/77378559/147446618-8d597f92-bebf-4a54-8db2-3dffe8d805f8.jpg)
 
 - 메인화면에서 찐테스트 버튼을 누르면 나오는 화면입니다.
 - 흔히 볼 수 있는 성격유형테스트를 할 수 있는 테스트입니다
