@@ -81,14 +81,13 @@
   <div markdown="2">       
   - 아이템리스트는
     <br>
-    ```java
-    public PersonalityItem(String title_resource1, String description_resource1, String time_resource1, int img_resource1){
+    <pre><code> public PersonalityItem(String title_resource1, String description_resource1, String time_resource1, int img_resource1){
        this.title_resource1 = title_resource1;
        this.description_resource1 = description_resource1;
        this.time_resource1 = time_resource1;
        this.img_resource1 = img_resource1;
-    }
-  ```
+     } </code></pre>
+   
 </div>
   <div markdown="3">       
   - 아이템리스트를 가져오는건 어댑터로 하였고 주요 코드는 이러합니다
