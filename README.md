@@ -81,12 +81,14 @@
   <div markdown="2">       
   - 아이템리스트는 아래 코드와 같습니다
     <br>
-    <pre><code> public PersonalityItem(String title_resource1, String description_resource1, String time_resource1, int img_resource1){
+    <pre><code> 
+    public PersonalityItem(String title_resource1, String description_resource1, String time_resource1, int img_resource1){
        this.title_resource1 = title_resource1;
        this.description_resource1 = description_resource1;
        this.time_resource1 = time_resource1;
        this.img_resource1 = img_resource1;
-     } </code></pre>
+     }
+     </code></pre>
    
 </div>
   <div markdown="3">       
@@ -107,7 +109,8 @@
             personalityItemView.setTime_resource1(item.getTime_resource1());
             personalityItemView.setImg_resource1(item.getImg_resource1());
             return personalityItemView;
-        } </code></pre>
+        }
+        </code></pre>
 </div>
 </details>
 
@@ -117,9 +120,10 @@
   - 테스트는 질문에 대한 버튼을 눌러 다음 액티비티로 값을 넘겨주는게 중요했습니다
 </div>
  <div markdown="2">       
-  - 이런한 값을 넘겨주는 코드는 
+  - 처음에 값을 넘겨주는 코드는 아래와 같고
      <br>
-  <pre><code>bankingtest_1_an1.setOnClickListener(new View.OnClickListener() {
+  <pre><code>
+  bankingtest_1_an1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String bankigtest_result1 = "result1";
@@ -130,7 +134,12 @@
                 startActivity(intent);
             }
         });
-bankingtest_2_an1.setOnClickListener(new View.OnClickListener() {
+    </code></pre>
+</div>
+<div markdown="3">
+  - 위의 코드를 다음액티비티로 계속 넘겨줄 때의 코드는 이러합니다
+  <pre><code>
+  bankingtest_2_an1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -148,10 +157,9 @@ bankingtest_2_an1.setOnClickListener(new View.OnClickListener() {
                 //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
                 startActivity(intent2);
             }
-        });</code></pre>
-</div>
-<div markdown="3">
-  - 이러한 방식을 사용해 순차적으로 값을 넘겨줬습니다
+        });
+        
+        </code></pre>
 
  </div>
 </details>
@@ -182,24 +190,26 @@ bankingtest_2_an1.setOnClickListener(new View.OnClickListener() {
                 }
                 else if(bankingtest_result1!= null && bankingtest_result1.equals("result1")){
                     Intent intent6 = new Intent(getBaseContext(), bankingtest_result1_Activity.class);
-                    //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
                     startActivity(intent6);
                 }
                 else{
                     Intent intent6 = new Intent(getBaseContext(), bankingtest_result2_Activity.class);
-                    //Toast.makeText(getApplicationContext(), bankingtest_result1,Toast.LENGTH_SHORT).show();
                     startActivity(intent6);
 
                 }
 
 
             }
-        });</code></pre>
+        });
+        </code></pre>
 </div>
   <div markdown="3">       
   - if문을 안드로이드에서는 그냥 하면 null값등에 충돌이 있기에 if문의 코드를 이렇게 작성해줘야했습니다
     <br>
-    <pre><code>if(bankingtest_result3!= null && bankingtest_result3.equals("result3") )</code></pre>
+    <pre><code>
+    if(bankingtest_result3!= null && bankingtest_result3.equals("result3") )
+    </code></pre>
+    - 그냥 ==을 사용하면 값을 읽어오지 못하기 때문에 equals를 사용해야하는 점이 이 코드의 주의할 점 입니다.
 </div>
  </details>
 
